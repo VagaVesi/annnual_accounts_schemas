@@ -1,4 +1,4 @@
-# annnual_accounts_schema
+# annual_accounts_schema
 
 Test project for annual acounts XBRL GL. Includes
 - sample data for micro entity (et-gaap)
