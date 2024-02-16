@@ -1,9 +1,9 @@
-# annual_accounts_schema
+# annual_accounts_schemas
 
 Test project for annual acounts XBRL GL. 
 Includes:
 - sample data for micro entity (et-gaap)
-- schema for validation
+- schemas for validation
 - python simple validation app
 
 Validation with package xmlschema
