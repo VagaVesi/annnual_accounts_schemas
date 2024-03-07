@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://datahub.rik.ee/schemas/json/EE0301010.json",
+    "title": "Annual accounts - balances micro",
+    "type": "object",
+    "properties": {
+        "documentInfo": {
+            "type:": "object",
+            "properties": { 
+                "uniqueID": {"type:": "string"},
+                "organizationIdentifier": {"type:": "string"},
+                "language": {"type:": "string","const": "iso639:et"},
+                "creationDate": {"type:": "string", "format": "date-time"},
+                "creator": {"type:": "string"},
+                "periodCoveredStart": {"type:": "string", "format": "date"},
+                "periodCoveredEnd": {"type:": "string", "format": "date"},
+                "sourceApplication": {"type:": "string"},
+                "defaultCurrency": {"type:": "string", "const": "iso4217:eur"}        
+            },
+        "dataset":{      
+            "entryNumber":{"type:": "string", "const": "EE0301010"},
+            "entryDetail":{
+                "type:": "array", 
+                "items":{
+                    "type": "object",
+                    "required": [
+                        "lineNumberCounter",
+                        "accountMainID",
+                        "debitCreditCode",
+                        "amount"
+                    ],
+                    "properties": {
+                        "lineNumberCounter": {"type:": "string", "pattern":"^\\d$"},
+                        "accountMainID": {"type:": "string", "pattern":"^\\d{1,6}$"},
+                        "debitCreditCode":{"type:": "string", "pattern": "^[D|K]$"},
+                        "amount":{"type:": "number"}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
