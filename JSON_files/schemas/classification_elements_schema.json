@@ -1,0 +1,89 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://datahub.rik.ee/schemas/json/classification_elements_schema.json",
+    "title": "Classification elements",
+    "type": "object",
+    "properties": {
+        "classification_code": {
+            "type:": "string",
+            "enum": [
+                "MAJANDUSLIKSISU2024ap",
+                "VARAGRUPP2024ap",
+                "ANDMETEESITLUSVIIS2024ap",
+                "SEOTUDOSAPOOL2024ap"
+            ],
+            "required": [
+                "classification_code"
+            ]
+        },
+        "elements": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "code",
+                    "name",
+                    "selectable",
+                    "level",
+                    "valid_from_date"
+                ],
+                "properties": {
+                    "code": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 30
+                    },
+                    "name": {
+                        "type": "object",
+                        "properties": {
+                            "et": { "type": "string" },
+                            "en": { "type": "string" }
+                        },
+                        "required": ["et"]
+                    },
+                    "explanation":{
+                            "et": { "type": "string" },
+                            "en": { "type": "string" }
+                    }
+                    ,
+                    "selectable": {
+                        "type": "integer",
+                        "enum": [0,1]
+                    },
+                    "level": {
+                        "type": "integer",
+                        "minimum": 1
+                    },
+                    "parent_code": {
+                        "type": [ "string", "null"]
+                    },
+                    "valid_from_date": {
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "valid_until_date": {
+                        "type": [ "string", "null" ],
+                        "format": "date"
+                    }
+                }
+            }
+        }
+    },
+    "anyOf": [{
+        "if":{"classification_code": {"const": "MAJANDUSLIKSISU2024ap"}},
+        "then":{"properties":{"elements":{"items":{"properties":{"code":{"pattern":"^\\d{1,6}$"}}}}}}
+    },
+    {
+        "if":{"classification_code": {"const": "VARAGRUPP2024ap"}},
+        "then":{"properties":{"elements":{"items":{"properties":{"code":{"pattern":"^VG_\\d{3}$"}}}}}}
+    },
+    {
+        "if":{"classification_code": {"const": "ANDMETEESITLUSVIIS2024ap"}},
+        "then":{"properties":{"elements":{"items":{"properties":{"code":{"pattern":"^AE_\\d{2}$"}}}}}}
+    },
+    {
+        "if":{"classification_code": {"const": "SEOTUDOSAPOOL2024ap"}},
+        "then":{"properties":{"elements":{"items":{"properties":{"code":{"pattern":"^SOP_\\d{2}$"}}}}}}
+    }
+]
+}

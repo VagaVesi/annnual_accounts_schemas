@@ -6,4 +6,3 @@ Includes:
 - schemas for validation
 - python simple validation app
 
-Validation with package xmlschema

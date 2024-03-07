@@ -1,0 +1,47 @@
+{
+    "classification_code": "MAJANDUSLIKSISU2024ap",
+    "elements": [
+        {
+            "code": "1",
+            "name": {
+                "et": "Varad",
+                "en": "Assets"
+            },
+            "selectable": 0,
+            "level": 1,
+            "parent_code": null,
+            "valid_from_date": "2025-01-01",
+            "valid_until_date": null
+        },
+        {
+            "code": "101010",
+            "name": {
+                "et": "Raha - Sularaha",
+                "en": "Cash - Cash in hand"
+            },
+            "explanation": {
+                "et": "Raha kassas"
+            },
+            "selectable": 1,
+            "level": 2,
+            "parent_code": "1",
+            "valid_from_date": "2025-01-01",
+            "valid_until_date": null
+        },
+        {
+            "code": "101020",
+            "name": {
+                "et": "Raha - Arvelduskontod",
+                "en": "Cash - Bank accounts"
+            },
+            "explanation": {
+                "et": "Raha pangas arvelduskontodel"
+            },
+            "selectable": 1,
+            "level": 2,
+            "parent_code": "1",
+            "valid_from_date": "2025-01-01",
+            "valid_until_date": null
+        }
+    ]
+}

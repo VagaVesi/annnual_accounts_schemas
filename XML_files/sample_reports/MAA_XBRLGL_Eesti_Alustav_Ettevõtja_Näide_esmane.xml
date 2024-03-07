@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Näidisfail ilmestab kuidas esitada käibeandmiku andmeid. Andmefail sisaldab perioodi algsaldosid ja käibeid. -->
+<!-- Näidisfail on koostatud võttes aluseks Journal näidis ning arvestades andmepõhise aruandluse kokkulepitud elemente -->
+<!-- Viited taksonoomiatele -->
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" 
+			xmlns:xbrll="http://www.xbrl.org/2003/linkbase" 
+			xmlns:xlink="http://www.w3.org/1999/xlink" 
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xmlns:gl-cor="http://www.xbrl.org/int/gl/cor/2015-03-25" 
+			xmlns:gl-muc="http://www.xbrl.org/int/gl/muc/2015-03-25" 
+			xmlns:gl-bus="http://www.xbrl.org/int/gl/bus/2015-03-25" 
+			xmlns:gl-plt="http://www.xbrl.org/int/gl/plt/2015-03-25" 
+			xmlns:iso4217="http://www.xbrl.org/2003/iso4217" 
+			xmlns:iso639="http://www.xbrl.org/2005/iso639" 
+			xsi:schemaLocation="../gl/plt/case-c-b-m-u-t/gl-plt-all-2015-03-25.xsd">
+	<xbrll:schemaRef xlink:type="simple" 
+			xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" 
+			xlink:href="../gl/plt/case-c-b-m-u-t/gl-plt-all-2015-03-25.xsd"/>
+			
+<!-- Contexts, on kohustuslik. Vastavalt XBRL 2.1 spetsifikatsioonile-->
+<xbrli:context id="now">
+	<!-- Aruande esitaja äriregistri kood -->
+	<xbrli:entity>
+		<xbrli:identifier scheme="http://www.ariregister.rik.ee">11308014</xbrli:identifier>
+	</xbrli:entity>
+	<!-- Faili loomise kuupäeva lisamine on soovitatav -->
+	<xbrli:period>
+		<xbrli:instant>2023-11-06</xbrli:instant>
+	</xbrli:period>
+</xbrli:context>
+	
+<!-- Mõõtühikutena vaadeldakse nii erinevaid valuutasid, kui ka kokkulepitud mõõtühikuid. Näites ei ole kasutatud muid ühikuid peale rahalise väärtuse eurodes -->
+<xbrli:unit id="eur">
+	<xbrli:measure>iso4217:EUR</xbrli:measure>
+</xbrli:unit>
+<!-- Kuna Eestis on kokku lepitud lineNumberCounter elemendi kasutamine on vajalik kasutada ühikuna notUsed-->
+<xbrli:unit id="NotUsed">
+	<xbrli:measure>pure</xbrli:measure>
+</xbrli:unit>
+
+
+<!-- Siit algab XBRL GL osa -->
+	<gl-cor:accountingEntries>
+		<!-- Kuna entriesType is nõutud siis tuleb esitada documentInfo plokk. -->
+		<gl-cor:documentInfo>
+			<!-- See väli, entriesType, annab andmete lugemise automatiseerimiseks info XBRL andmete liigi kohta. Journal on standartne formaat, kus Deebet(D) = Kreedit (C). -->
+			<gl-cor:entriesType contextRef="now">Journal</gl-cor:entriesType>
+			<!-- Aruande unikaalne id, mille peab tagama andmete esitaja, on Eestis kokku lepitud, et selleks on ühingu regnr + aruande kuupäev + kellaaeg -->
+			<gl-cor:uniqueID contextRef="now">10002456-2023-08-10T09:36:51:554</gl-cor:uniqueID>
+			<gl-cor:language contextRef="now">iso639:et</gl-cor:language>
+			<!--Aruande koostamise kuupäev -->
+			<gl-cor:creationDate contextRef="now">2023-09-27</gl-cor:creationDate>
+			<gl-bus:creator contextRef="now">RIK näidis, Kaido Vetevoog</gl-bus:creator>
+			<!--Aruande selgitus-->
+			<gl-cor:entriesComment contextRef="now">Näidisfail, kus väikeettevõtte esitab esimese 2022. kohta  7 kuulise majandusaasta aruande andmed</gl-cor:entriesComment>
+			<!-- Aruande kuupäevade vahemik -->
+			<gl-cor:periodCoveredStart contextRef="now">2022-06-15</gl-cor:periodCoveredStart>
+			<gl-cor:periodCoveredEnd contextRef="now">2022-12-31</gl-cor:periodCoveredEnd>
+			<!--Majandustarkvara või infosüsteemi nimetus-->
+			<gl-bus:sourceApplication contextRef="now">Majandustarkvara nimi</gl-bus:sourceApplication>
+			<!--Kasutatav valuuta-->
+			<gl-muc:defaultCurrency contextRef="now">iso4217:eur</gl-muc:defaultCurrency>
+		</gl-cor:documentInfo>
+		
+		<!-- Järgneb andmeid esitavga ühingu info plokk -->
+		<gl-cor:entityInformation>
+			<!-- Ühingu registrinumber ja nimetus -->
+			<gl-bus:organizationIdentifiers>
+				<gl-bus:organizationIdentifier contextRef="now">11308014</gl-bus:organizationIdentifier>
+				<gl-bus:organizationDescription contextRef="now">äriregistrikood</gl-bus:organizationDescription>
+			</gl-bus:organizationIdentifiers>
+		</gl-cor:entityInformation>
+		
+		<!-- Journal nõuab andmete puhul nii päist kui detaile. Näide sisaldab nii perioodi algsaldosid kui perioodi käivete andmeid.-->
+		<!-- Andmed esitatakse näites kahe osana ehk esimeses osas algbilanss, teises osas perioodi deebet ja kreedit käive. -->
+		<!-- Samas on võimalik esitada ka iga osa eraldi. -->
+	
+		<gl-cor:entryHeader> 
+			<!--EntryNumber on päise unikaalne kood. Äriregistrile esitatava algsaldodele vastab andmesektsioon EE0301001.-->
+			<gl-cor:entryNumber contextRef="now">EE0301001</gl-cor:entryNumber>
+			<!-- Kommentaar on selle päise selgituseks -->
+			<gl-cor:entryComment contextRef="now">Perioodi lõppssaldod Äriregistrile</gl-cor:entryComment>
+			<!-- Andmete päises võib ära näidata andmete allikas, milleks on pearaamat. -->
+			<gl-cor:sourceJournalID contextRef="now">gj</gl-cor:sourceJournalID>
+			<!-- Iga summa (Main account ja Subaccount kombinatsiooni kohta) tuleb esitada eraldi kirjena ehk andmeblokis entryDetail. Ühe päise (entryHeader) alla võib esitada mitmeid kontosid (entryDetail). -->
+			<!-- Journal formaadi puhul on oluline tagada, et iga ploki kannnete deebet ja kreedit summade puhul peab kontode deebetKokku=kreeditKokku -->
+			<gl-cor:entryDetail>
+				<!-- Iga andmereal saadetavas failis peab olema unikaalne rea tunnus (lineNumberCounter).-->
+				<gl-cor:lineNumberCounter contextRef="now" decimals="0" unitRef="NotUsed">1</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<!-- MainAccount on majandustehingute klassifikaatori kood.  -->
+					<gl-cor:accountMainID contextRef="now">101020</gl-cor:accountMainID>
+					<!-- Nimetuse lisamine annab lisainfot andmete lugejale.  -->
+					<gl-cor:accountMainDescription contextRef="now">Raha - Arvelduskontod</gl-cor:accountMainDescription>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Soetusmaksumuses</gl-cor:accountSubDescription>
+						<gl-cor:accountSubID contextRef="now">AE_12</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">ANDMETEESITLUSVIIS2023ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+				</gl-cor:account>
+				<!-- Esitades summad sendi täpsusega ei pea andmete saatja tegelema ümardusvahede käsitlemisega. -->
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">2500.00</gl-cor:amount>
+				<!-- Kontode puhul on oliline eristada kas tegu on deebeti või kreeditiga. Sellest sõltub summa mörk aruandes mis leitakse konto liigi (deebet või kreeditkonto) ja saldo liigi (deebet või kreedit) kombinatsiooni põhjal  -->
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+				<!-- Kuupäev, mis seisuga info saldoesitatakse. Algsaldo puhul on selleks eelmise aruandeperioodi lõpp -->
+				<gl-cor:postingDate contextRef="now">2022-06-14</gl-cor:postingDate>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter contextRef="now" decimals="0" unitRef="NotUsed">2</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">315011</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Omakapital - Registreeritud</gl-cor:accountMainDescription>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Soetusmaksumuses</gl-cor:accountSubDescription>
+						<gl-cor:accountSubID contextRef="now">AE_12</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">ANDMETEESITLUSVIIS2023ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">2500.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+				<gl-cor:postingDate contextRef="now">2022-06-14</gl-cor:postingDate>
+			</gl-cor:entryDetail>
+		</gl-cor:entryHeader>
+		
+		
+		<!-- Esimene päise plokk (entryHeader) oli algsaldode esitamiseks. Teine päise plokk on konto käivete esitamiseks. -->
+		<!-- Kuna osade kontode deebet või kreedit käibega tuleb esitada info lisatunnuste (subAccount) täpustustega on oluline eristada sama konto deebet ja kreedit. -->
+		<gl-cor:entryHeader>
+			<!--EntryNumber on päise unikaalne kood. Äriregistrile esitatava algsaldodele vastab andmesektsioon EE0301001.-->
+			<gl-cor:entryNumber contextRef="now">EE0302001</gl-cor:entryNumber>
+			<!-- Kommentaar on selle päise selgituseks -->
+			<gl-cor:entryComment contextRef="now">Perioodi käibed Äriregistrile</gl-cor:entryComment>
+			<!-- Andmete päises võib ära näidata andmete allikas, milleks on pearaamat. -->
+			<gl-cor:sourceJournalID contextRef="now">gj</gl-cor:sourceJournalID>
+			
+			<!-- Iga summa (Main account ja Subaccount kombinatsiooni kohta) tuleb esitada eraldi kirjena ehk andmeblokis entryDetail. Ühe päise (entryHeader) alla võib esitada mitmeid kontosid (entryDetail). -->
+			<!-- Trial balance puhul on oluline tagada, et iga ploki kannnete deebet ja kreedit summade puhul peab kontode deebetKokku=kreeditKokku -->
+			<gl-cor:entryDetail>
+				<!-- Iga andmereal saadetavas failis peab olema unikaalne rea tunnus (lineNumberCounter).-->
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">1</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<!-- MainAccount on majandustehingute klassifikaatori kood.  -->
+					<gl-cor:accountMainID contextRef="now">101020</gl-cor:accountMainID>
+					<!-- Nimetuse lisamine annab lisainfot andmete lugejale.  -->
+					<gl-cor:accountMainDescription contextRef="now">Raha - Arvelduskontod</gl-cor:accountMainDescription>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Soetusmaksumuses</gl-cor:accountSubDescription>
+						<gl-cor:accountSubID contextRef="now">AE_12</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">ANDMETEESITLUSVIIS2023ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+				</gl-cor:account>
+				<!-- Esitades summad sendi täpsusega ei pea andmete saatja tegelema ümardusvahede käsitlemisega. -->
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">14020.00</gl-cor:amount>
+				<!-- Kontode puhul on oliline eristada kas tegu on deebeti või kreeditiga. Sellest sõltub summa mörk aruandes mis leitakse konto liigi (deebet või kreeditkonto) ja saldo liigi (deebet või kreedit) kombinatsiooni põhjal  -->
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+				<!-- Perioodi käivete puhul määrab aruandeperioodi algus ja lõpp, mis perioodi kohta summa käib. -->
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">2</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">101020</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Raha - Arvelduskontod</gl-cor:accountMainDescription>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Soetusmaksumuses</gl-cor:accountSubDescription>
+						<gl-cor:accountSubID contextRef="now">AE_12</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">ANDMETEESITLUSVIIS2023ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">8132.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">3</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">103010</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Nõuded - Ostjate vastu (Lühiajaline)</gl-cor:accountMainDescription>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">14020.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">4</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">103010</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Nõuded - Ostjate vastu (Lühiajaline)</gl-cor:accountMainDescription>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">14020.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">5</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">104010</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Maksunõuded - Maksude ettemaksukonto (Lühiajaline)</gl-cor:accountMainDescription>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">2385.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">6</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">104010</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Maksunõuded - Maksude ettemaksukonto (Lühiajaline)</gl-cor:accountMainDescription>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">2385.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>			
+
+		<!-- Alamkontod ehk dimensioonid on vajalikud info lahterdamiseks soovitud klassifikaatorite, loendite abil -->
+		<!-- Põhivara kontode puhul on vaja lisada dimensioonid ANDMETEESITLUSVIIS2023ap, VARAGRUPP2023ap ja MUUTUSELIIK2023ap-->
+		<!-- Põhivara dimensioon on võimalik panna juurde kas varale, mis siis lisatakse kõikidele varaga seotud tehingutele, või tuletada raamatupidamiskontost kui vastava varagrupi jaoks on loodud eraldi raamatupidamiskontod-->
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">7</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">110011</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Materiaalne põhivara</gl-cor:accountMainDescription>
+					<!-- Esimene dimensioon on põhivara arvestusmeetod -->
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Soetusmaksumuses</gl-cor:accountSubDescription>
+						<gl-cor:accountSubID contextRef="now">AE_12</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">ANDMETEESITLUSVIIS2023ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+					<!-- Teine dimensioon on põhivara grupp -->
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Arvutid ja arvutisüsteemid</gl-cor:accountSubDescription>
+						<gl-cor:accountSubID contextRef="now">VG_105</gl-cor:accountSubID>	
+						<gl-cor:accountSubType contextRef="now">MUUTUSELIIK2023ap</gl-cor:accountSubType>
+					</gl-cor:accountSub>
+					<!-- Kolmas dimensioon on põhivara tehingu liik. Lisatakse juurde vaid käivetele. Saldodele ei lisata -->
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Suurenemine</gl-cor:accountSubDescription>
+						<gl-cor:accountSubID contextRef="now">ML_11</gl-cor:accountSubID>	
+						<gl-cor:accountSubType contextRef="now">MUUTUSELIIK2023ap</gl-cor:accountSubType>					
+					</gl-cor:accountSub>					
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">935.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+		<!-- Sama tuleb teha ka teiste põhivaraga seotud tehingute ja kontode puhul ehk akumuleeritud kulumi liikumise kandele tuleb lisada samad dimensioonid mis põhivarale -->	
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">8</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">110021</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Materiaalne põhivara - Akumuleerunud kulum</gl-cor:accountMainDescription>
+					<!-- Esimene dimensioon on põhivara arvestusmeetod -->
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Soetusmaksumuses</gl-cor:accountSubDescription>		
+						<gl-cor:accountSubID contextRef="now">AE_12</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">ANDMETEESITLUSVIIS2023ap</gl-cor:accountSubType>				
+					</gl-cor:accountSub>
+					<!-- Teine dimensioon on põhivara grupp -->
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Arvutid ja arvutisüsteemid</gl-cor:accountSubDescription>	
+						<gl-cor:accountSubID contextRef="now">VG_105</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">VARAGRUPP2023ap</gl-cor:accountSubType>					
+					</gl-cor:accountSub>
+					<!-- Kolmas dimensioon on põhivara tehingu liik -->
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Amortisatsioon</gl-cor:accountSubDescription>		
+						<gl-cor:accountSubID contextRef="now">ML_16</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">MUUTUSELIIK2023ap</gl-cor:accountSubType>					
+					</gl-cor:accountSub>					
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">155.82</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">9</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">212010</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Võlad Tarnijad (Lühiajaline)</gl-cor:accountMainDescription>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">412.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">10</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">212010</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Võlad Tarnijad (Lühiajaline)</gl-cor:accountMainDescription>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">444.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<!-- Osade kontode puhul on lisadimensiooni lisamine vabatahtlik. Seda kasutatakse näiteks seotud osapooltega tehingute eristamiseks muudest tehingutest-->
+			<!-- Juhul kui sama konto puhul on vaja esitada nii vabatahtliku dimensiooniga kui ilma, siis on faili moodustamisel on kaks varianti. Kas jätta lisadimensioon esitamata (kui see on tühi) või kasutada andmete esitamisel lisadimensiooni vaikimisi väärtust 99 (Muu eraisik)-->
+			<!-- Dimensiooni info saab lisada kandele juurde vastava isiku allsüsteemi kaardilt (ostja, isik, töötaja vms) automaatselt või tuleb lisada finantskandele käsitsi-->
+			<!-- Konkreetse väikefirma näitel on juhatuse liige ja omanikuna seotud osapool, siis tuleb temaga seotud tehingutele lisada SEOTUDOSAPOOL2023ap -->
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">11</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">212020</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Võlad Töövõtjad - palgavõlg (Lühiajaline)</gl-cor:accountMainDescription>
+					<!-- Kuna juhatuse liige on ainuke palga saaja, siis esitatakse palvavõla konto puhul vaid üks kombinantsioon-->
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Juhtorgani liige või füüsilisest isikust omaniku kontrolli või mõju all olevad ühingud</gl-cor:accountSubDescription>
+						<gl-cor:accountSubID contextRef="now">SOP_21</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">SEOTUDOSAPOOL2023ap</gl-cor:accountSubType>
+					</gl-cor:accountSub>				
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">4400.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">12</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">212020</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Võlad Töövõtjad - palgavõlg (Lühiajaline)</gl-cor:accountMainDescription>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Juhtorgani liige või füüsilisest isikust omaniku kontrolli või mõju all olevad ühingud</gl-cor:accountSubDescription>						
+						<gl-cor:accountSubID contextRef="now">SOP_21</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">SEOTUDOSAPOOL2023ap</gl-cor:accountSubType>
+					</gl-cor:accountSub>				
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">5200.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>	
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">13</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">204050</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Maksuvõlad - Sotsiaalmaks (Lühiajaline)</gl-cor:accountMainDescription>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">1485.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">14</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">204050</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Maksuvõlad - Sotsiaalmaks (Lühiajaline)</gl-cor:accountMainDescription>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">2145.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">13</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">204030</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Maksuvõlad - Üksikisiku tulumaks (Lühiajaline)</gl-cor:accountMainDescription>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">900.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">14</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">204030</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Võlad Muud (Lühiajaline)</gl-cor:accountMainDescription>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">1300.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">15</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">212990</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Võlad Töövõtjad - palgavõlg (Lühiajaline)</gl-cor:accountMainDescription>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Juhtorgani liige või füüsilisest isikust omaniku kontrolli või mõju all olevad ühingud</gl-cor:accountSubDescription>						
+						<gl-cor:accountSubID contextRef="now">SOP_21</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">SEOTUDOSAPOOL2023ap</gl-cor:accountSubType>
+						</gl-cor:accountSub>				
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">935.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">16</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">212990</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Võlad Muud (Lühiajaline)</gl-cor:accountMainDescription>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Juhtorgani liige või füüsilisest isikust omaniku kontrolli või mõju all olevad ühingud</gl-cor:accountSubDescription>						
+						<gl-cor:accountSubID contextRef="now">SOP_21</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">SEOTUDOSAPOOL2023ap</gl-cor:accountSubType>
+					</gl-cor:accountSub>				
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">935.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<!-- Müügitulu tuleb esitada riikide ja tegevusalade (EMTAK) lõikes. Seetõttu on vaja lisda need dimensioonid andmetele juurde. Need andmed saab juurde müügiarvetelt või tegevusala saab ka raamatupidamiskontost tuletada-->
+			<!-- Riigi ja Tegevusala tunnuse saab statistikaameti ja RIK kodulehelt-->
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">17</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">418012</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Müügitulu - Tulu ettevõtlusest</gl-cor:accountMainDescription>
+					<!--Riigi tunnus -->
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Eesti</gl-cor:accountSubDescription>	
+						<gl-cor:accountSubID contextRef="now">EE</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">RIIGIROLL2022ap</gl-cor:accountSubType>					
+					</gl-cor:accountSub>
+					<!--Tegevusala tunnus -->
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Ärinõustamine jm juhtimisalane nõustamine</gl-cor:accountSubDescription>	
+						<gl-cor:accountSubID contextRef="now">70221</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">EMTAK2023ap</gl-cor:accountSubType>					
+					</gl-cor:accountSub>	
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">14020.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<!--Kulukontode puhul tuleb lisada kasumiaruande skeemi jaoks dimensioon ehk ANDMETEESITLUSVIIS2023ap -->
+			<!--Kulude grupeerimise lisatunnus, mis võimaldab koostada automaatselt kas kasumiaruande skeem 1 või skeem 2 järgse aruande -->
+			<!--Saab tuletada kas raamatupidamiskontodest või läbi lisatunnuse lisamise kandele -->
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">18</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">520052</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Kulud - Müügi eesmärgil ostetud teenused</gl-cor:accountMainDescription>
+					<!--Kulu grupeeringu lisatunnus -->
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Müüdud toodangu kulu (Põhitegevuse kulud)</gl-cor:accountSubDescription>	
+						<gl-cor:accountSubID contextRef="now">AE_20</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">ANDMETEESITLUSVIIS2023ap</gl-cor:accountSubType>					
+					</gl-cor:accountSub>	
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">220.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">19</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">520212</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Kulud - Mitmesugused bürookulud</gl-cor:accountMainDescription>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Üldhalduskulud (Mitmesugused tegevuskulud)</gl-cor:accountSubDescription>	
+						<gl-cor:accountSubID contextRef="now">AE_22</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">ANDMETEESITLUSVIIS2023ap</gl-cor:accountSubType>					
+					</gl-cor:accountSub>	
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">224.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">20</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">522012</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Tööjõukulud - Palgakulu</gl-cor:accountMainDescription>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Müüdud toodangu kulu (Põhitegevuse kulud)</gl-cor:accountSubDescription>
+						<gl-cor:accountSubID contextRef="now">AE_22</gl-cor:accountSubID>	
+						<gl-cor:accountSubType contextRef="now">ANDMETEESITLUSVIIS2023ap</gl-cor:accountSubType>					
+					</gl-cor:accountSub>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Juhtorgani liige või füüsilisest isikust omaniku kontrolli või mõju all olevad ühingud</gl-cor:accountSubDescription>						
+						<gl-cor:accountSubID contextRef="now">SOP_21</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">SEOTUDOSAPOOL2023ap</gl-cor:accountSubType>
+					</gl-cor:accountSub>					
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">6500.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">21</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">522022</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Tööjõukulud - Sotsiaalmaks ja tööandja töötuskindlustusmakse</gl-cor:accountMainDescription>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Müüdud toodangu kulu (Põhitegevuse kulud)</gl-cor:accountSubDescription>	
+						<gl-cor:accountSubID contextRef="now">AE_20</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">ANDMETEESITLUSVIIS2023ap</gl-cor:accountSubType>					
+					</gl-cor:accountSub>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Juhtorgani liige või füüsilisest isikust omaniku kontrolli või mõju all olevad ühingud</gl-cor:accountSubDescription>
+						<gl-cor:accountSubID contextRef="now">SOP_21</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">SEOTUDOSAPOOL2023ap</gl-cor:accountSubType>						
+					</gl-cor:accountSub>					
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">2145.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter decimals="0" unitRef="NotUsed" contextRef="now">22</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">523012</gl-cor:accountMainID>
+					<gl-cor:accountMainDescription contextRef="now">Kulum - Kulum ja väärtuse langus</gl-cor:accountMainDescription>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubDescription contextRef="now">Üldhalduskulud (Mitmesugused tegevuskulud)</gl-cor:accountSubDescription>
+						<gl-cor:accountSubID contextRef="now">AE_22</gl-cor:accountSubID>
+						<gl-cor:accountSubType contextRef="now">ANDMETEESITLUSVIIS2023ap</gl-cor:accountSubType>							
+					</gl-cor:accountSub>				
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">155.82</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+		</gl-cor:entryHeader>
+
+	</gl-cor:accountingEntries>
+</xbrli:xbrl>
