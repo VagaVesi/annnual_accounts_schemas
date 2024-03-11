@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance"
+	xmlns:xbrll="http://www.xbrl.org/2003/linkbase"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:gl-cor="http://www.xbrl.org/int/gl/cor/2015-03-25"
+	xmlns:gl-muc="http://www.xbrl.org/int/gl/muc/2015-03-25"
+	xmlns:gl-bus="http://www.xbrl.org/int/gl/bus/2015-03-25"
+	xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+	xmlns:iso639="http://www.xbrl.org/2005/iso639" xsi:schemaLocation="http://www.xbrl.org/taxonomy/int/gl/2015-03-25/plt/case-c-b-m/gl-plt-all-2015-03-25.xsd">
+	<xbrll:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.xbrl.org/taxonomy/int/gl/2015-03-25/plt/case-c-b-m/gl-plt-all-2015-03-25.xsd" />
+
+	<xbrli:context id="now">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.ariregister.rik.ee">11308014</xbrli:identifier>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:instant>2023-09-27</xbrli:instant>
+		</xbrli:period>
+	</xbrli:context>
+
+	<xbrli:unit id="eur">
+		<xbrli:measure>iso4217:EUR</xbrli:measure>
+	</xbrli:unit>
+	<xbrli:unit id="NotUsed">
+		<xbrli:measure>pure</xbrli:measure>
+	</xbrli:unit>
+
+	<gl-cor:accountingEntries>
+		<gl-cor:documentInfo>
+			<gl-cor:entriesType contextRef="now">other</gl-cor:entriesType>
+			<gl-cor:uniqueID contextRef="now">11308014-2023-08-10T09:36:51:59</gl-cor:uniqueID>
+			<gl-cor:language contextRef="now">iso639:et</gl-cor:language>
+			<gl-cor:creationDate contextRef="now">2023-09-27</gl-cor:creationDate>
+			<gl-bus:creator contextRef="now">RIK näidis, Kaido Vetevoog</gl-bus:creator>
+			<gl-cor:periodCoveredStart contextRef="now">2022-06-15</gl-cor:periodCoveredStart>
+			<gl-cor:periodCoveredEnd contextRef="now">2022-12-31</gl-cor:periodCoveredEnd>
+			<gl-bus:sourceApplication contextRef="now">Majandustarkvara nimi</gl-bus:sourceApplication>
+			<gl-muc:defaultCurrency contextRef="now">iso4217:eur</gl-muc:defaultCurrency>
+		</gl-cor:documentInfo>
+		<gl-cor:entityInformation>
+			<gl-bus:organizationIdentifiers>
+				<gl-bus:organizationIdentifier contextRef="now">11308014</gl-bus:organizationIdentifier>
+			</gl-bus:organizationIdentifiers>
+		</gl-cor:entityInformation>
+
+		<gl-cor:entryHeader>
+			<gl-cor:entryNumber contextRef="now">EE0302010</gl-cor:entryNumber>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter contextRef="now" decimals="0" unitRef="NotUsed">1</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">110011</gl-cor:accountMainID>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubID contextRef="now">VG_102</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">VARAGRUPP2024ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubID contextRef="now">ML_11</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">MUUTUSELIIK2024ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">1200.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter contextRef="now" decimals="0" unitRef="NotUsed">2</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">110021</gl-cor:accountMainID>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubID contextRef="now">VG_102</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">VARAGRUPP2024ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubID contextRef="now">ML_16</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">MUUTUSELIIK2024ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">300.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter contextRef="now" decimals="0" unitRef="NotUsed">3</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">212060</gl-cor:accountMainID>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubID contextRef="now">ML_11</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">MUUTUSELIIK2024ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubID contextRef="now">SOP_22</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">SEOTUDOSAPOOL2024ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">15000.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter contextRef="now" decimals="0" unitRef="NotUsed">4</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">212060</gl-cor:accountMainID>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubID contextRef="now">ML_12</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">MUUTUSELIIK2024ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubID contextRef="now">SOP_22</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">SEOTUDOSAPOOL2024ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">5000.00</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter contextRef="now" decimals="0" unitRef="NotUsed">5</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">317011</gl-cor:accountMainID>>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubID contextRef="now">ML_13</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">MUUTUSELIIK2024ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">1266.67</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			<gl-cor:entryDetail>
+				<gl-cor:lineNumberCounter contextRef="now" decimals="0" unitRef="NotUsed">6</gl-cor:lineNumberCounter>
+				<gl-cor:account>
+					<gl-cor:accountMainID contextRef="now">317021</gl-cor:accountMainID>>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubID contextRef="now">ML_13</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">MUUTUSELIIK2024ap</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
+				</gl-cor:account>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">1266.67</gl-cor:amount>
+				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
+			</gl-cor:entryDetail>
+			
+		</gl-cor:entryHeader>
+	</gl-cor:accountingEntries>
+</xbrli:xbrl>
