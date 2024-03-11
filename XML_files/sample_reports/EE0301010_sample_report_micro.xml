@@ -162,10 +162,6 @@
 				<gl-cor:lineNumberCounter contextRef="now" decimals="0" unitRef="NotUsed">15</gl-cor:lineNumberCounter>
 				<gl-cor:account>
 					<gl-cor:accountMainID contextRef="now">317011</gl-cor:accountMainID>
-					<gl-cor:accountSub>
-						<gl-cor:accountSubID contextRef="now">71111</gl-cor:accountSubID>		
-						<gl-cor:accountSubType contextRef="now">EMTAK2025</gl-cor:accountSubType>									
-					</gl-cor:accountSub>
 				</gl-cor:account>
 				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">1266.67</gl-cor:amount>
 				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
@@ -174,6 +170,10 @@
 				<gl-cor:lineNumberCounter contextRef="now" decimals="0" unitRef="NotUsed">16</gl-cor:lineNumberCounter>
 				<gl-cor:account>
 					<gl-cor:accountMainID contextRef="now">418012</gl-cor:accountMainID>
+					<gl-cor:accountSub>
+						<gl-cor:accountSubID contextRef="now">71111</gl-cor:accountSubID>		
+						<gl-cor:accountSubType contextRef="now">EMTAK2025</gl-cor:accountSubType>									
+					</gl-cor:accountSub>
 				</gl-cor:account>
 				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">12990.00</gl-cor:amount>
 				<gl-cor:debitCreditCode contextRef="now">C</gl-cor:debitCreditCode>
