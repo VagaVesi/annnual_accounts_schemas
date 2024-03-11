@@ -312,7 +312,7 @@
 						<gl-cor:accountSubType contextRef="now">VARAGRUPP2024ap</gl-cor:accountSubType>									
 					</gl-cor:accountSub>
 				</gl-cor:account>
-				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">200.00</gl-cor:amount>
+				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">300.00</gl-cor:amount>
 				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
 			</gl-cor:entryDetail>
 		</gl-cor:entryHeader>
