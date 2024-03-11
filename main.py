@@ -2,6 +2,7 @@ from app.validator import Validator
 from app.file_operations import FileOperations
 from app.converter import Converter
 from app.xbrlgl_validator import XBRLGLValidator
+from datetime import datetime
 
 def main():
     # json_document = "JSON_files/samples/classification_varagrupp.json"
@@ -21,6 +22,7 @@ def main():
 
     validation_result = Validator.validate_json(json_document, json_schema)
     print(validation_result)
+    # print(datetime.now())
 
     # xlm_file = FileOperations.open_file("XML_files/sample_reports/EE0301020_sample_report_stardard_small.xml")
     # is_xml_valid = Validator.validate_xml(xlm_file, "http://www.xbrl.org/taxonomy/int/gl/2015-03-25/plt/case-c-b-m/gl-plt-all-2015-03-25.xsd")

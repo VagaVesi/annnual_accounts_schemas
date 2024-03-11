@@ -4,7 +4,7 @@
             "uniqueID": "11308014-2023-08-10T09:36:51:554",
             "organizationIdentifier": "11308014",
             "language": "iso639:et",
-            "creationDate": "2023-01-01",
+            "creationDate": "2023-01-31",
             "creator": "Kaido Vetevoog",
             "periodCoveredStart": "2023-01-01",
             "periodCoveredEnd": "2023-12-31",
@@ -13,12 +13,18 @@
         },
     "dataset":
         {
-            "entryNumber":"AA0301010",
-            "entryDetail":[
+            "entryNumber": "EE0301010",
+            "entryDetail": [
                 {
-                    "lineNumberCounter": "1",
+                    "lineNumberCounter": 1,
                     "accountMainID": "101010",
                     "debitCreditCode":"D",
+                    "amount": 200.00
+                },
+                {
+                    "lineNumberCounter": 2,
+                    "accountMainID": "101010",
+                    "debitCreditCode":"C",
                     "amount": 200.00
                 }
             ]
