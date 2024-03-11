@@ -1,14 +1,26 @@
 {
     "documentInfo":
         {
-            "uniqueID": {"type:": "string"},
-            "organizationIdentifier": {"type:": "string"},
-            "language": {"type:": "string","const": "iso639:et"},
+            "uniqueID": "11308014-2023-08-10T09:36:51:554",
+            "organizationIdentifier": "11308014",
+            "language": "iso639:et",
             "creationDate": "2023-01-01",
             "creator": "Kaido Vetevoog",
             "periodCoveredStart": "2023-01-01",
             "periodCoveredEnd": "2023-12-31",
             "sourceApplication": "e-arveldaja",
             "defaultCurrency": "iso4217:eur"  
+        },
+    "dataset":
+        {
+            "entryNumber":"AA0301010",
+            "entryDetail":[
+                {
+                    "lineNumberCounter": "1",
+                    "accountMainID": "101010",
+                    "debitCreditCode":"D",
+                    "amount": 200.00
+                }
+            ]
         }
 }
