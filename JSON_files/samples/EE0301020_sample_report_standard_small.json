@@ -13,7 +13,7 @@
         },
     "dataset":
         {
-            "entryNumber": "EE0301010",
+            "entryNumber": "EE0301020",
             "entryDetail": [
                 { "lineNumberCounter": 1, "accountMainID": "101010", "debitCreditCode":"D", "amount": 200.00 },
                 { "lineNumberCounter": 2, "accountMainID": "101020", "debitCreditCode":"D", "amount": 11432.32 },

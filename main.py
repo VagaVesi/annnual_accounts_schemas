@@ -17,8 +17,8 @@ def main():
 
     # result = Converter.convert_xls_to_classification_json(raw_data, classification_code)
 
-    json_document = "JSON_files/samples/EE0301010_sample_report_micro.json"
-    json_schema = "JSON_files/schemas/EE0301010_schema.json"
+    json_document = "JSON_files/samples/EE0301020_sample_report_standard_small.json"
+    json_schema = "JSON_files/schemas/EE0301020_schema.json"
 
     validation_result = Validator.validate_json(json_document, json_schema)
     print(validation_result)
