@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://datahub.rik.ee/schemas/json/EE0301010.json",
+    "$id": "https://datahub.rik.ee/schemas/json/EE0301020.json",
     "title": "Annual Accounts Balances - micro",
     "type": "object",
     "required":[
