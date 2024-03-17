@@ -3,9 +3,7 @@
     "$id": "https://datahub.rik.ee/schemas/json/EE0301010.json",
     "title": "Annual Accounts Balances - micro",
     "type": "object",
-    "required":[
-        "documentInfo",
-        "dataset"],
+    "required":[ "documentInfo", "dataset"],
     "properties": {
         "documentInfo": {
             "type:": "object",
@@ -33,26 +31,30 @@
             }
         },  
         "dataset":{
-            "type:": "object",
-            "required":[ "entryNumber", "entryDetail"],
-            "properties": {
-                "entryNumber":{"type:": "string", "const": "EE0301010"},
-                "entryDetail": {
-                    "type:": "array",
-                    "minItems": 1,
-                    "items":{
-                        "type": "object",
-                        "required": [
-                            "lineNumberCounter",
-                            "accountMainID",
-                            "debitCreditCode",
-                            "amount"],     
-                        "properties":{
-                            "lineNumberCounter":{"type": "number"},
-                            "accountMainID": {"type:": "string", "pattern":"^\\d{1,6}$"},
-                            "debitCreditCode":{"type:": "string", "pattern": "^[D|C]$"},
-                            "amount":{"type:": "number"}
-                            }     
+            "type:": "array",
+            "minItems": 1,
+            "items":{
+                "type:": "object",
+                "required":[ "entryNumber", "entryDetail"],
+                "properties": {
+                    "entryNumber":{"type:": "string", "const": "EE0301010"},
+                    "entryDetail": {
+                        "type:": "array",
+                        "minItems": 1,
+                        "items":{
+                            "type": "object",
+                            "required": [
+                                "lineNumberCounter",
+                                "accountMainID",
+                                "debitCreditCode",
+                                "amount"],     
+                            "properties":{
+                                "lineNumberCounter":{"type": "number"},
+                                "accountMainID": {"type:": "string", "pattern":"^\\d{1,6}$"},
+                                "debitCreditCode":{"type:": "string", "pattern": "^[D|C]$"},
+                                "amount":{"type:": "number"}
+                                }     
+                            }
                         }
                     }
                 }

@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://datahub.rik.ee/schemas/json/EE0301020.json",
-    "title": "Annual Accounts Balances - micro",
+    "title": "Annual Accounts Balances - standard (small entity)",
     "type": "object",
     "required":[
         "documentInfo",
@@ -33,37 +33,41 @@
             }
         },  
         "dataset":{
-            "type:": "object",
-            "required":[ "entryNumber", "entryDetail"],
-            "properties": {
-                "entryNumber":{"type:": "string", "const": "EE0301020"},
-                "entryDetail": {
-                    "type:": "array",
-                    "minItems": 1,
-                    "items":{
-                        "type": "object",
-                        "required": [
-                            "lineNumberCounter",
-                            "accountMainID",
-                            "debitCreditCode",
-                            "amount"],     
-                        "properties":{
-                            "lineNumberCounter":{"type": "number"},
-                            "accountMainID": {"type:": "string", "pattern":"^\\d{6}$"},
-                            "accountSub":{
-                                "type": "object",
-                                "properties":{
-                                    "ANDMETEESITLUSVIIS2024ap":{"type": "string", "pattern":"^AE_\\d{2}$"},
-                                    "VARAGRUPP2024ap":{"type": "string", "pattern":"^VG_\\d{3}$"},
-                                    "SEOTUDOSAPOOL2024ap":{"type": "string", "pattern":"^SOP_\\d{2}$"},
-                                    "EMTAK2025":{"type": "string", "pattern":"^\\d{5}$"},
-                                    "ISO_3166-1":{"type": "string"}
-                                },
-                                "additionalProperties": false
-                                },  
-                            "debitCreditCode":{"type:": "string", "pattern": "^[D|C]$"},
-                            "amount":{"type:": "number"}
-                            }     
+            "type:": "array",
+            "minItems": 1,
+            "items":{
+                "type:": "object",
+                "required":[ "entryNumber", "entryDetail"],
+                "properties": {
+                    "entryNumber":{"type:": "string", "const": "EE0301020"},
+                    "entryDetail": {
+                        "type:": "array",
+                        "minItems": 1,
+                        "items":{
+                            "type": "object",
+                            "required": [
+                                "lineNumberCounter",
+                                "accountMainID",
+                                "debitCreditCode",
+                                "amount"],     
+                            "properties":{
+                                "lineNumberCounter":{"type": "number"},
+                                "accountMainID": {"type:": "string", "pattern":"^\\d{6}$"},
+                                "accountSub":{
+                                    "type": "object",
+                                    "properties":{
+                                        "ANDMETEESITLUSVIIS2024ap":{"type": "string", "pattern":"^AE_\\d{2}$"},
+                                        "VARAGRUPP2024ap":{"type": "string", "pattern":"^VG_\\d{3}$"},
+                                        "SEOTUDOSAPOOL2024ap":{"type": "string", "pattern":"^SOP_\\d{2}$"},
+                                        "EMTAK2025":{"type": "string", "pattern":"^\\d{5}$"},
+                                        "ISO_3166-1":{"type": "string"}
+                                    },
+                                    "additionalProperties": false
+                                    },  
+                                "debitCreditCode":{"type:": "string", "pattern": "^[D|C]$"},
+                                "amount":{"type:": "number"}
+                                }     
+                            }
                         }
                     }
                 }

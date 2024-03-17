@@ -11,7 +11,7 @@
             "sourceApplication": "e-arveldaja",
             "defaultCurrency": "iso4217:eur"  
         },
-    "dataset":
+    "dataset":[
         {
             "entryNumber": "EE0301010",
             "entryDetail": [
@@ -39,6 +39,7 @@
                 { "lineNumberCounter": 21, "accountMainID": "521012", "debitCreditCode":"D", "amount": 3000.00 },
                 { "lineNumberCounter": 22, "accountMainID": "521022", "debitCreditCode":"D", "amount": 990.00 },
                 { "lineNumberCounter": 23, "accountMainID": "520512", "debitCreditCode":"D", "amount": 1.00 }
-            ]
+            ]          
         }
+    ]
 }

@@ -11,7 +11,7 @@
             "sourceApplication": "e-arveldaja",
             "defaultCurrency": "iso4217:eur"  
         },
-    "dataset":
+    "dataset":[
         {
             "entryNumber": "EE0301020",
             "entryDetail": [
@@ -54,4 +54,5 @@
                 "accountSub": {"ANDMETEESITLUSVIIS2024ap": "AE_20", "VARAGRUPP2024ap": "VG_102"} }
             ]
         }
+    ]
 }
