@@ -22,10 +22,10 @@
                 "uniqueID": {"type:": "string"},
                 "organizationIdentifier": {"type:": "string"},
                 "language": {"type:": "string","const": "iso639:et"},
-                "creationDate": {"type:": "string", "format": "date", "pattern":"^([1-2]\\d{1,3})-([0][1-9]|[1][0-2])-([0][1-9]|[12][0-9]|[3][0-1])$"},
+                "creationDate": {"type:": "string", "format": "date", "pattern":"^([1-2]\\d{3})-([0][1-9]|[1][0-2])-([0][1-9]|[12][0-9]|[3][0-1])$"},
                 "creator": {"type:": "string"},
-                "periodCoveredStart": {"type:": "string", "format": "date", "pattern":"^([1-2]\\d{1,3})-([0][1-9]|[1][0-2])-([0][1-9]|[12][0-9]|[3][0-1])$"},
-                "periodCoveredEnd": {"type:": "string", "format": "date", "pattern":"^([1-2]\\d{1,3})-([0][1-9]|[1][0-2])-([0][1-9]|[12][0-9]|[3][0-1])$"},
+                "periodCoveredStart": {"type:": "string", "format": "date", "pattern":"^([1-2]\\d{3})-([0][1-9]|[1][0-2])-([0][1-9]|[12][0-9]|[3][0-1])$"},
+                "periodCoveredEnd": {"type:": "string", "format": "date", "pattern":"^([1-2]\\d{3})-([0][1-9]|[1][0-2])-([0][1-9]|[12][0-9]|[3][0-1])$"},
                 "sourceApplication": {"type:": "string"},
                 "defaultCurrency": {"type:": "string", "const": "iso4217:eur"}      
             }
@@ -50,7 +50,7 @@
                                 "amount"],     
                             "properties":{
                                 "lineNumberCounter":{"type": "number"},
-                                "accountMainID": {"type:": "string", "pattern":"^\\d{1,6}$"},
+                                "accountMainID": {"type:": "string", "pattern":"^\\d{6}$"},
                                 "debitCreditCode":{"type:": "string", "pattern": "^[D|C]$"},
                                 "amount":{"type:": "number"}
                                 }     
