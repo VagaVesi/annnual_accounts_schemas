@@ -60,7 +60,7 @@
                                         "VARAGRUPP2024ap":{"type": "string", "pattern":"^VG_\\d{3}$"},
                                         "SEOTUDOSAPOOL2024ap":{"type": "string", "pattern":"^SOP_\\d{2}$"},
                                         "EMTAK2025":{"type": "string", "pattern":"^\\d{5}$"},
-                                        "ISO_3166-1":{"type": "string"}
+                                        "RIIK_ISO_3166":{"type": "string"}
                                     },
                                     "additionalProperties": false
                                     },  
