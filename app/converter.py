@@ -48,7 +48,7 @@ class Converter:
             for x, y in xls_raw.items():
                 if notna(y[i]):
                     if x == 'name_ET':
-                        element['name'].update({'et': y[i]})
+                        element['name'].update({'et': y[i].replace("(", " (").replace("  ", " ").replace(u"\u00A0", "")})
                     elif x == 'MUUTUSELIIK2024ap':
                         if y[i] == 'all':
                             element['subAccounts'].update({'MUUTUSELIIK2024ap': []})
@@ -59,7 +59,7 @@ class Converter:
                             element['subAccounts'].update({'ANDMETEESITLUSVIIS2024ap': []})
                         else:
                             element['subAccounts'].update({'ANDMETEESITLUSVIIS2024ap': [s.strip() for s in y[i].split((","))]})
-                    elif x == 'RTK2T2013ap':
+                    elif x.strip() == 'RTK2T2013ap':
                         if y[i] == 'all':
                             element['subAccounts'].update({'RTK2T2013ap': []})
                         else:

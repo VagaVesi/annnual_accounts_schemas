@@ -57,7 +57,7 @@
         {
             "accountMainID": "103020",
             "name": {
-                "et": "Nõuded - Ebatõenäoliselt laekuvad nõuded ostjate vastu(Lühiajaline)"
+                "et": "Nõuded - Ebatõenäoliselt laekuvad nõuded ostjate vastu (Lühiajaline)"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": []
@@ -1099,7 +1099,8 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
-                "EMTAK2008ap": []
+                "EMTAK2008ap": [],
+                "RTK2T2013ap": []
             }
         },
         {
@@ -1109,37 +1110,41 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
-                "EMTAK2008ap": []
+                "EMTAK2008ap": [],
+                "RTK2T2013ap": []
             }
         },
         {
             "accountMainID": "418032",
             "name": {
-                "et": "Müügitulu - Sisseastumistasud "
+                "et": "Müügitulu - Sisseastumistasud"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
-                "EMTAK2008ap": []
+                "EMTAK2008ap": [],
+                "RTK2T2013ap": []
             }
         },
         {
             "accountMainID": "418042",
             "name": {
-                "et": "Müügitulu - Hooldustasud "
+                "et": "Müügitulu - Hooldustasud"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
-                "EMTAK2008ap": []
+                "EMTAK2008ap": [],
+                "RTK2T2013ap": []
             }
         },
         {
             "accountMainID": "418052",
             "name": {
-                "et": "Müügitulu - Remonditasud "
+                "et": "Müügitulu - Remonditasud"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
-                "EMTAK2008ap": []
+                "EMTAK2008ap": [],
+                "RTK2T2013ap": []
             }
         },
         {
@@ -1149,7 +1154,8 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
-                "EMTAK2008ap": []
+                "EMTAK2008ap": [],
+                "RTK2T2013ap": []
             }
         },
         {
@@ -1205,7 +1211,7 @@
         {
             "accountMainID": "520102",
             "name": {
-                "et": "Kulud - Elektrienergia "
+                "et": "Kulud - Elektrienergia"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1215,7 +1221,7 @@
         {
             "accountMainID": "520112",
             "name": {
-                "et": "Kulud - Soojusenergia "
+                "et": "Kulud - Soojusenergia"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1225,7 +1231,7 @@
         {
             "accountMainID": "520122",
             "name": {
-                "et": "Kulud - Kütus "
+                "et": "Kulud - Kütus"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1235,7 +1241,7 @@
         {
             "accountMainID": "520132",
             "name": {
-                "et": "Kulud - Veevarustusteenused "
+                "et": "Kulud - Veevarustusteenused"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1245,7 +1251,7 @@
         {
             "accountMainID": "520202",
             "name": {
-                "et": "Kulud - Alltöövõtutööd - ehitus hoonetes"
+                "et": "Kulud - Alltöövõtutööd- ehitus hoonetes"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1255,7 +1261,7 @@
         {
             "accountMainID": "520212",
             "name": {
-                "et": "Kulud - Alltöövõtutööd - ehitusel (va hoonetes)"
+                "et": "Kulud - Alltöövõtutööd- ehitusel (va hoonetes)"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1265,7 +1271,7 @@
         {
             "accountMainID": "520222",
             "name": {
-                "et": "Kulud - Alltöövõtutööd - tööstustoodangu allhange"
+                "et": "Kulud - Alltöövõtutööd- tööstustoodangu allhange"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1275,7 +1281,7 @@
         {
             "accountMainID": "520292",
             "name": {
-                "et": "Kulud - Alltöövõtutööd  - Muud"
+                "et": "Kulud - Alltöövõtutööd - Muud"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1285,7 +1291,7 @@
         {
             "accountMainID": "520302",
             "name": {
-                "et": "Kulud - Transpordikulud "
+                "et": "Kulud - Transpordikulud"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1295,7 +1301,7 @@
         {
             "accountMainID": "520312",
             "name": {
-                "et": "Kulud - Logistikakulud "
+                "et": "Kulud - Logistikakulud"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1305,7 +1311,7 @@
         {
             "accountMainID": "520322",
             "name": {
-                "et": "Kulud - Maarent "
+                "et": "Kulud - Maarent"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1335,7 +1341,7 @@
         {
             "accountMainID": "520382",
             "name": {
-                "et": "Kulud - Tööjõurent "
+                "et": "Kulud - Tööjõurent"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1416,7 +1422,7 @@
         {
             "accountMainID": "520552",
             "name": {
-                "et": "Kulud - Lähetuskulud "
+                "et": "Kulud - Lähetuskulud"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1426,7 +1432,7 @@
         {
             "accountMainID": "520562",
             "name": {
-                "et": "Kulud - Koolituskulud "
+                "et": "Kulud - Koolituskulud"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1486,7 +1492,7 @@
         {
             "accountMainID": "520812",
             "name": {
-                "et": "Kulud - Kulu ebatõenäoliselt laekuvatest nõuetest "
+                "et": "Kulud - Kulu ebatõenäoliselt laekuvatest nõuetest"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1506,7 +1512,7 @@
         {
             "accountMainID": "520992",
             "name": {
-                "et": "Kulud - Muud "
+                "et": "Kulud - Muud"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1536,7 +1542,7 @@
         {
             "accountMainID": "521032",
             "name": {
-                "et": "Tööjõukulud - Pensionikulu "
+                "et": "Tööjõukulud - Pensionikulu"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1625,7 +1631,7 @@
         {
             "accountMainID": "619052",
             "name": {
-                "et": "Muud tulud - Litsentsitasud "
+                "et": "Muud tulud - Litsentsitasud"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": []
@@ -1712,7 +1718,7 @@
         {
             "accountMainID": "623032",
             "name": {
-                "et": "Äritulu ja kulu - Kasum ja kahjum varade õiglase väärtuse muutusest - Kinnisvarainvesteeringud ja bioloogilised varad"
+                "et": "Äritulu ja kulu - Kasum ja kahjum varade õiglase väärtuse muutusest- Kinnisvarainvesteeringud ja bioloogilised varad"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": [],
@@ -1732,7 +1738,7 @@
         {
             "accountMainID": "623042",
             "name": {
-                "et": "Äritulu ja kulu - Valuutakursi muutused seoses äritegevusega(Kasum/kahjum)"
+                "et": "Äritulu ja kulu - Valuutakursi muutused seoses äritegevusega (Kasum/kahjum)"
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": []
