@@ -38,7 +38,13 @@
                 "VARAGRUPP2024ap": {
                     "VG_201": "Osalused",
                     "VG_202": "Fondiosakud",
-                    "VG_203": "Võlakirjad"
+                    "VG_203": "Võlakirjad",
+                    "VG_999": "Muud"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_11": "Õiglase väärtuse meetod",
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_15": "Korrigeeritud soetusmaksumuse meetod"
                 }
             }
         },
@@ -48,9 +54,7 @@
                 "et": "Nõuded - Ostjate vastu (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {},
-                "MUUTUSELIIK2024ap": {}
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -69,7 +73,12 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "MUUTUSELIIK2024ap": {}
+                "MUUTUSELIIK2024ap": {
+                    "ML_11": "Suurenemine",
+                    "ML_12": "Vähenemine",
+                    "ML_13": "Ümberliigitamine",
+                    "ML_14": "Äriühendus"
+                }
             }
         },
         {
@@ -143,7 +152,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                }
             }
         },
         {
@@ -153,7 +166,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                }
             }
         },
         {
@@ -163,7 +180,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                }
             }
         },
         {
@@ -173,7 +194,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                }
             }
         },
         {
@@ -192,7 +217,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                }
             }
         },
         {
@@ -207,9 +236,14 @@
                     "VG_113": "Istandikud",
                     "VG_114": "Mets",
                     "VG_115": "Vili",
-                    "VG_116": "Rohumaad"
+                    "VG_116": "Rohumaad",
+                    "VG_999": "Muud"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                },
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -233,7 +267,11 @@
                     "SOP_12": "Tütarettevõtja",
                     "SOP_13": "Sidusettevõtja"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_11": "Õiglase väärtuse meetod",
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_16": "Kapitaliosaluse meetod"
+                },
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -247,9 +285,14 @@
                 "VARAGRUPP2024ap": {
                     "VG_201": "Osalused",
                     "VG_202": "Fondiosakud",
-                    "VG_203": "Võlakirjad"
+                    "VG_203": "Võlakirjad",
+                    "VG_999": "Muud"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_11": "Õiglase väärtuse meetod",
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_15": "Korrigeeritud soetusmaksumuse meetod"
+                },
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -269,7 +312,12 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "MUUTUSELIIK2024ap": {}
+                "MUUTUSELIIK2024ap": {
+                    "ML_11": "Suurenemine",
+                    "ML_12": "Vähenemine",
+                    "ML_13": "Ümberliigitamine",
+                    "ML_14": "Äriühendus"
+                }
             }
         },
         {
@@ -345,9 +393,14 @@
                     "VG_113": "Istandikud",
                     "VG_114": "Mets",
                     "VG_115": "Vili",
-                    "VG_116": "Rohumaad"
+                    "VG_116": "Rohumaad",
+                    "VG_999": "Muud"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_12": "Soetusmaksumuse meetod - individuaalse hindamise meetod",
+                    "AE_13": "Soetusmaksumuse meetod - FIFO",
+                    "AE_14": "Soetusmaksumuse meetod - kaalutud keskmise soetusmaksumuse meetod"
+                },
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -363,7 +416,8 @@
                     "VG_113": "Istandikud",
                     "VG_114": "Mets",
                     "VG_115": "Vili",
-                    "VG_116": "Rohumaad"
+                    "VG_116": "Rohumaad",
+                    "VG_999": "Muud"
                 },
                 "MUUTUSELIIK2024ap": {}
             }
@@ -380,7 +434,10 @@
                     "VG_102": "Hooned  ja rajatised (kasutatud)",
                     "VG_103": "Hooned  ja rajatised (uued)"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_11": "Õiglase väärtuse meetod",
+                    "AE_15": "Korrigeeritud soetusmaksumuse meetod"
+                },
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -395,7 +452,9 @@
                     "VG_102": "Hooned  ja rajatised (kasutatud)",
                     "VG_103": "Hooned  ja rajatised (uued)"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_31": "Kulum - lineaarne meetod"
+                },
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -411,7 +470,6 @@
                     "VG_102": "Hooned  ja rajatised (kasutatud)",
                     "VG_103": "Hooned  ja rajatised (uued)"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -427,7 +485,6 @@
                     "VG_102": "Hooned  ja rajatised (kasutatud)",
                     "VG_103": "Hooned  ja rajatised (uued)"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -439,11 +496,9 @@
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
                 "VARAGRUPP2024ap": {
-                    "VG_112": "Loomsed varad",
-                    "VG_113": "Istandikud",
-                    "VG_114": "Mets",
-                    "VG_115": "Vili",
-                    "VG_116": "Rohumaad"
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)"
                 },
                 "MUUTUSELIIK2024ap": {}
             }
@@ -462,9 +517,12 @@
                     "VG_104": "Transpordivahendid",
                     "VG_105": "Arvutid ja arvutisüsteemid",
                     "VG_106": "Meditsiiniseadmed",
-                    "VG_107": "Masinad ja seadmed ning inventar"
+                    "VG_107": "Masinad ja seadmed ning inventar",
+                    "VG_999": "Muud"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_11": "Õiglase väärtuse meetod"
+                },
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -481,9 +539,14 @@
                     "VG_104": "Transpordivahendid",
                     "VG_105": "Arvutid ja arvutisüsteemid",
                     "VG_106": "Meditsiiniseadmed",
-                    "VG_107": "Masinad ja seadmed ning inventar"
+                    "VG_107": "Masinad ja seadmed ning inventar",
+                    "VG_999": "Muud"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_31": "Kulum - lineaarne meetod",
+                    "AE_32": "Kulum - kahaneva jäägi meetod",
+                    "AE_33": "Kulum - tootmisühiku meetod"
+                },
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -501,9 +564,9 @@
                     "VG_104": "Transpordivahendid",
                     "VG_105": "Arvutid ja arvutisüsteemid",
                     "VG_106": "Meditsiiniseadmed",
-                    "VG_107": "Masinad ja seadmed ning inventar"
+                    "VG_107": "Masinad ja seadmed ning inventar",
+                    "VG_999": "Muud"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -521,9 +584,9 @@
                     "VG_104": "Transpordivahendid",
                     "VG_105": "Arvutid ja arvutisüsteemid",
                     "VG_106": "Meditsiiniseadmed",
-                    "VG_107": "Masinad ja seadmed ning inventar"
+                    "VG_107": "Masinad ja seadmed ning inventar",
+                    "VG_999": "Muud"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -541,7 +604,8 @@
                     "VG_104": "Transpordivahendid",
                     "VG_105": "Arvutid ja arvutisüsteemid",
                     "VG_106": "Meditsiiniseadmed",
-                    "VG_107": "Masinad ja seadmed ning inventar"
+                    "VG_107": "Masinad ja seadmed ning inventar",
+                    "VG_999": "Muud"
                 },
                 "MUUTUSELIIK2024ap": {}
             }
@@ -557,9 +621,13 @@
                     "VG_108": "Firmaväärtus",
                     "VG_109": "Arenguväljaminekud",
                     "VG_110": "Arvutitarkvara",
-                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid"
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid",
+                    "VG_999": "Muud"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_11": "Õiglase väärtuse meetod",
+                    "AE_15": "Korrigeeritud soetusmaksumuse meetod"
+                },
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -573,9 +641,14 @@
                     "VG_108": "Firmaväärtus",
                     "VG_109": "Arenguväljaminekud",
                     "VG_110": "Arvutitarkvara",
-                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid"
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid",
+                    "VG_999": "Muud"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_31": "Kulum - lineaarne meetod",
+                    "AE_32": "Kulum - kahaneva jäägi meetod",
+                    "AE_33": "Kulum - tootmisühiku meetod"
+                },
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -590,9 +663,9 @@
                     "VG_108": "Firmaväärtus",
                     "VG_109": "Arenguväljaminekud",
                     "VG_110": "Arvutitarkvara",
-                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid"
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid",
+                    "VG_999": "Muud"
                 },
-                "ANDMETEESITLUSVIIS2024ap": {},
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -607,7 +680,8 @@
                     "VG_108": "Firmaväärtus",
                     "VG_109": "Arenguväljaminekud",
                     "VG_110": "Arvutitarkvara",
-                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid"
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid",
+                    "VG_999": "Muud"
                 },
                 "MUUTUSELIIK2024ap": {}
             }
@@ -817,7 +891,6 @@
                 "et": "Eraldised - Garantiieraldis (Lühiajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": {},
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -827,7 +900,6 @@
                 "et": "Eraldised - Maksueraldis (Lühiajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": {},
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -837,7 +909,6 @@
                 "et": "Eraldised - Muud (Lühiajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": {},
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -848,7 +919,10 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_40": "Brutomeetod",
+                    "AE_41": "Netomeetod"
+                }
             }
         },
         {
@@ -941,7 +1015,6 @@
                 "et": "Eraldised - Garantiieraldis (Pikaajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": {},
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -951,7 +1024,6 @@
                 "et": "Eraldised - Maksueraldis (Pikaajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": {},
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -961,7 +1033,6 @@
                 "et": "Eraldised - Muud (Pikaajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": {},
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -972,7 +1043,10 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_40": "Brutomeetod",
+                    "AE_41": "Netomeetod"
+                },
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -982,7 +1056,9 @@
                 "et": "Sihtfinantseerimise ettemaksed - Sihtfinantseerimise amortisatsioon (Pikaajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_40": "Brutomeetod"
+                },
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -1055,7 +1131,6 @@
                 "et": "Reservid - Muud"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": {},
                 "MUUTUSELIIK2024ap": {}
             }
         },
@@ -1150,7 +1225,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1160,7 +1239,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1170,7 +1253,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1180,7 +1267,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1190,7 +1281,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1200,7 +1295,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1210,7 +1309,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1220,7 +1323,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1230,7 +1337,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1240,7 +1351,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1250,7 +1365,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1260,7 +1379,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1270,7 +1393,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1280,7 +1407,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1290,7 +1421,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1300,7 +1435,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1310,7 +1449,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1320,7 +1463,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1330,7 +1477,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1340,7 +1491,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1351,7 +1506,11 @@
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
                 "VARAGRUPP2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1361,7 +1520,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1371,7 +1534,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1381,7 +1548,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1391,7 +1562,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1401,7 +1576,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1411,7 +1590,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1421,7 +1604,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1431,7 +1618,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1441,7 +1632,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1451,7 +1646,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1461,7 +1660,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1471,7 +1674,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1481,7 +1688,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1491,7 +1702,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1501,7 +1716,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1511,7 +1730,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1521,7 +1744,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1531,7 +1758,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1541,7 +1772,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1551,7 +1786,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1561,7 +1800,11 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1571,7 +1814,11 @@
             },
             "subAccounts": {
                 "VARAGRUPP2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "ANDMETEESITLUSVIIS2024ap": {
+                    "AE_20": "Müüdud toodangu kulu (Põhitegevuse kulud)",
+                    "AE_21": "Turustuskulud (Mitmesugused tegevuskulud)",
+                    "AE_22": "Halduskulud (Mitmesugused tegevuskulud)"
+                }
             }
         },
         {
@@ -1581,8 +1828,7 @@
             },
             "subAccounts": {
                 "SEOTUDOSAPOOL2024ap": {},
-                "VARAGRUPP2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "VARAGRUPP2024ap": {}
             }
         },
         {
@@ -1591,8 +1837,7 @@
                 "et": "Muud tulud - Tegevuskulude sihtfinantseerimine"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": {},
-                "ANDMETEESITLUSVIIS2024ap": {}
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1640,7 +1885,8 @@
                     "VG_113": "Istandikud",
                     "VG_114": "Mets",
                     "VG_115": "Vili",
-                    "VG_116": "Rohumaad"
+                    "VG_116": "Rohumaad",
+                    "VG_999": "Muud"
                 }
             }
         },
@@ -1694,7 +1940,8 @@
                     "VG_108": "Firmaväärtus",
                     "VG_109": "Arenguväljaminekud",
                     "VG_110": "Arvutitarkvara",
-                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid"
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid",
+                    "VG_999": "Muud"
                 }
             }
         },
@@ -1713,7 +1960,8 @@
                     "VG_113": "Istandikud",
                     "VG_114": "Mets",
                     "VG_115": "Vili",
-                    "VG_116": "Rohumaad"
+                    "VG_116": "Rohumaad",
+                    "VG_999": "Muud"
                 }
             }
         },
