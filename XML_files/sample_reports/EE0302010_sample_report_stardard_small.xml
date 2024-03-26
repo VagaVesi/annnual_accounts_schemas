@@ -29,21 +29,22 @@
 	<gl-cor:accountingEntries>
 		<gl-cor:documentInfo>
 			<gl-cor:entriesType contextRef="now">other</gl-cor:entriesType>
-			<gl-cor:uniqueID contextRef="now">11308014-2023-08-10T09:36:51:59</gl-cor:uniqueID>
+			<gl-cor:uniqueID contextRef="now">11308014-2023-08-10T09:36:51:554</gl-cor:uniqueID>
 			<gl-cor:language contextRef="now">iso639:et</gl-cor:language>
 			<gl-cor:creationDate contextRef="now">2023-09-27</gl-cor:creationDate>
-			<gl-bus:creator contextRef="now">RIK näidis, Kaido Vetevoog</gl-bus:creator>
+			<gl-bus:creator contextRef="now">EE38302250123</gl-bus:creator>
 			<gl-cor:periodCoveredStart contextRef="now">2022-06-15</gl-cor:periodCoveredStart>
 			<gl-cor:periodCoveredEnd contextRef="now">2022-12-31</gl-cor:periodCoveredEnd>
-			<gl-bus:sourceApplication contextRef="now">Majandustarkvara nimi</gl-bus:sourceApplication>
+			<gl-bus:sourceApplication contextRef="now">e-arveldaja</gl-bus:sourceApplication>
 			<gl-muc:defaultCurrency contextRef="now">iso4217:eur</gl-muc:defaultCurrency>
 		</gl-cor:documentInfo>
 		<gl-cor:entityInformation>
 			<gl-bus:organizationIdentifiers>
-				<gl-bus:organizationIdentifier contextRef="now">11308014</gl-bus:organizationIdentifier>
+				<gl-bus:organizationIdentifier contextRef="now">EE11308014</gl-bus:organizationIdentifier>
+				<gl-bus:organizationDescription contextRef="now">e-äriregister</gl-bus:organizationDescription>
 			</gl-bus:organizationIdentifiers>
 		</gl-cor:entityInformation>
-
+		
 		<gl-cor:entryHeader>
 			<gl-cor:entryNumber contextRef="now">EE0302010</gl-cor:entryNumber>
 			<gl-cor:entryDetail>
@@ -113,7 +114,7 @@
 			<gl-cor:entryDetail>
 				<gl-cor:lineNumberCounter contextRef="now" decimals="0" unitRef="NotUsed">5</gl-cor:lineNumberCounter>
 				<gl-cor:account>
-					<gl-cor:accountMainID contextRef="now">317011</gl-cor:accountMainID>>
+					<gl-cor:accountMainID contextRef="now">317011</gl-cor:accountMainID>
 					<gl-cor:accountSub>
 						<gl-cor:accountSubID contextRef="now">ML_13</gl-cor:accountSubID>		
 						<gl-cor:accountSubType contextRef="now">MUUTUSELIIK2024ap</gl-cor:accountSubType>									
@@ -125,7 +126,7 @@
 			<gl-cor:entryDetail>
 				<gl-cor:lineNumberCounter contextRef="now" decimals="0" unitRef="NotUsed">6</gl-cor:lineNumberCounter>
 				<gl-cor:account>
-					<gl-cor:accountMainID contextRef="now">317021</gl-cor:accountMainID>>
+					<gl-cor:accountMainID contextRef="now">317021</gl-cor:accountMainID>
 					<gl-cor:accountSub>
 						<gl-cor:accountSubID contextRef="now">ML_13</gl-cor:accountSubID>		
 						<gl-cor:accountSubType contextRef="now">MUUTUSELIIK2024ap</gl-cor:accountSubType>									
@@ -133,8 +134,7 @@
 				</gl-cor:account>
 				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">1266.67</gl-cor:amount>
 				<gl-cor:debitCreditCode contextRef="now">D</gl-cor:debitCreditCode>
-			</gl-cor:entryDetail>
-			
+			</gl-cor:entryDetail>	
 		</gl-cor:entryHeader>
 	</gl-cor:accountingEntries>
 </xbrli:xbrl>

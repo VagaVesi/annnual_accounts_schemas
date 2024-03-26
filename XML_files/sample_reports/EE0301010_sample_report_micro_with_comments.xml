@@ -45,12 +45,12 @@
 			<gl-cor:language contextRef="now">iso639:et</gl-cor:language>
 			<!--Andmestiku	koostamise kuupäev -->
 			<gl-cor:creationDate contextRef="now">2023-09-27</gl-cor:creationDate>
-			<gl-bus:creator contextRef="now">RIK näidis, Kaido Vetevoog</gl-bus:creator>
+			<gl-bus:creator contextRef="now">EE38302250123</gl-bus:creator>
 			<!-- Andmestiku kuupäevade vahemik -->
 			<gl-cor:periodCoveredStart contextRef="now">2022-06-15</gl-cor:periodCoveredStart>
 			<gl-cor:periodCoveredEnd contextRef="now">2022-12-31</gl-cor:periodCoveredEnd>
 			<!--Majandustarkvara või infosüsteemi nimetus -->
-			<gl-bus:sourceApplication contextRef="now">Majandustarkvara nimi</gl-bus:sourceApplication>
+			<gl-bus:sourceApplication contextRef="now">e-arveldaja</gl-bus:sourceApplication>
 			<!--Aruandluse valuuta-->
 			<gl-muc:defaultCurrency contextRef="now">iso4217:eur</gl-muc:defaultCurrency>
 		</gl-cor:documentInfo>
@@ -58,7 +58,8 @@
 		<!-- Järgneb andmeid esitavga ühingu info plokk -->
 		<gl-cor:entityInformation>
 			<gl-bus:organizationIdentifiers>
-				<gl-bus:organizationIdentifier contextRef="now">11308014</gl-bus:organizationIdentifier>
+				<gl-bus:organizationIdentifier contextRef="now">EE11308014</gl-bus:organizationIdentifier>
+				<gl-bus:organizationDescription contextRef="now">e-äriregister</gl-bus:organizationDescription>
 			</gl-bus:organizationIdentifiers>
 		</gl-cor:entityInformation>
 

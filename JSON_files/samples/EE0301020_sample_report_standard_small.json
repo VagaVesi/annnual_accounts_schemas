@@ -2,7 +2,6 @@
     "documentInfo":
         {
             "uniqueID": "11308014-2023-08-10T09:36:51:554",
-            "organizationIdentifier": "11308014",
             "language": "iso639:et",
             "creationDate": "2023-01-31",
             "creator": "Kaido Vetevoog",
@@ -11,7 +10,11 @@
             "sourceApplication": "e-arveldaja",
             "defaultCurrency": "iso4217:eur"  
         },
-    "dataset":[
+    "entityInformation":{
+        "organizationIdentifier": "EE11308014",
+        "organizationDescription": "e-äriregister"
+        },
+    "datasets":[
         {
             "entryNumber": "EE0301020",
             "entryDetail": [
