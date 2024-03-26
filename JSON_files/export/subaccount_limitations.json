@@ -34,13 +34,12 @@
                 "et": "Finantsinvesteeringud (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_201",
-                    "VG_202",
-                    "VG_203",
-                    "VG_199"
-                ]
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_201": "Osalused",
+                    "VG_202": "Fondiosakud",
+                    "VG_203": "Võlakirjad"
+                }
             }
         },
         {
@@ -49,9 +48,9 @@
                 "et": "Nõuded - Ostjate vastu (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -60,7 +59,7 @@
                 "et": "Nõuded - Ebatõenäoliselt laekuvad nõuded ostjate vastu (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -69,8 +68,8 @@
                 "et": "Nõuded - Laenud (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -79,7 +78,7 @@
                 "et": "Nõuded - Intressid (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -88,7 +87,7 @@
                 "et": "Nõuded - Dividendid (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -97,7 +96,7 @@
                 "et": "Nõuded - Viitlaekumised (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -106,7 +105,7 @@
                 "et": "Nõuded - Muud (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -143,8 +142,8 @@
                 "et": "Varud - Tooraine ja materjal"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -153,8 +152,8 @@
                 "et": "Varud - Lõpetamata toodang"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -163,8 +162,8 @@
                 "et": "Varud - Valmistoodang"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -173,8 +172,8 @@
                 "et": "Varud - Müügiks ostetud kaubad"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -183,7 +182,7 @@
                 "et": "Varud - Ettemaksed"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -192,8 +191,8 @@
                 "et": "Varud - Muud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -202,17 +201,16 @@
                 "et": "Bioloogilised varad - (Käibevara)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_112",
-                    "VG_113",
-                    "VG_114",
-                    "VG_115",
-                    "VG_116",
-                    "VG_199"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_112": "Loomsed varad",
+                    "VG_113": "Istandikud",
+                    "VG_114": "Mets",
+                    "VG_115": "Vili",
+                    "VG_116": "Rohumaad"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -221,8 +219,8 @@
                 "et": "Bioloogilised varad - Ettemaksed (Käibevara)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -231,12 +229,12 @@
                 "et": "Osalused - Tütar- ja sidusettevõtted"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [
-                    "SOP_12",
-                    "SOP_13"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {
+                    "SOP_12": "Tütarettevõtja",
+                    "SOP_13": "Sidusettevõtja"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -245,15 +243,14 @@
                 "et": "Finantsinvesteeringud (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_201",
-                    "VG_202",
-                    "VG_203",
-                    "VG_199"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_201": "Osalused",
+                    "VG_202": "Fondiosakud",
+                    "VG_203": "Võlakirjad"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -262,7 +259,7 @@
                 "et": "Nõuded - Ostjate vastu (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -271,8 +268,8 @@
                 "et": "Nõuded - Laenud (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -281,7 +278,7 @@
                 "et": "Nõuded - Intressid (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -290,7 +287,7 @@
                 "et": "Nõuded - Dividendid (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -299,7 +296,7 @@
                 "et": "Nõuded - Viitlaekumised (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -308,7 +305,7 @@
                 "et": "Nõuded - Muud (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -324,7 +321,7 @@
                 "et": "Makstud Ettemaksed - Tulevaste perioodide kulud (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -333,7 +330,7 @@
                 "et": "Makstud Ettemaksed - Muud (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -342,17 +339,16 @@
                 "et": "Bioloogilised varad - (Põhivara)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_112",
-                    "VG_113",
-                    "VG_114",
-                    "VG_115",
-                    "VG_116",
-                    "VG_199"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_112": "Loomsed varad",
+                    "VG_113": "Istandikud",
+                    "VG_114": "Mets",
+                    "VG_115": "Vili",
+                    "VG_116": "Rohumaad"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -361,16 +357,15 @@
                 "et": "Bioloogilised varad - Ettemaksed (Põhivara)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_112",
-                    "VG_113",
-                    "VG_114",
-                    "VG_115",
-                    "VG_116",
-                    "VG_199"
-                ],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_112": "Loomsed varad",
+                    "VG_113": "Istandikud",
+                    "VG_114": "Mets",
+                    "VG_115": "Vili",
+                    "VG_116": "Rohumaad"
+                },
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -379,14 +374,14 @@
                 "et": "Kinnisvarainvesteering"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_101",
-                    "VG_102",
-                    "VG_103"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -395,13 +390,13 @@
                 "et": "Kinnisvarainvesteering - Akumuleerunud kulum"
             },
             "subAccounts": {
-                "VARAGRUPP2024ap": [
-                    "VG_101",
-                    "VG_102",
-                    "VG_103"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -410,14 +405,14 @@
                 "et": "Kinnisvarainvesteering - Lõpetamata projektid"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_101",
-                    "VG_102",
-                    "VG_103"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -426,14 +421,14 @@
                 "et": "Kinnisvarainvesteering - Lõpetamata projektid - kapitaliseeritud laenukulutused"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_101",
-                    "VG_102",
-                    "VG_103"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -442,16 +437,15 @@
                 "et": "Kinnisvarainvesteering - Ettemaksed"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_112",
-                    "VG_113",
-                    "VG_114",
-                    "VG_115",
-                    "VG_116",
-                    "VG_199"
-                ],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_112": "Loomsed varad",
+                    "VG_113": "Istandikud",
+                    "VG_114": "Mets",
+                    "VG_115": "Vili",
+                    "VG_116": "Rohumaad"
+                },
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -460,19 +454,18 @@
                 "et": "Materiaalne põhivara soetusmaksumuses"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_101",
-                    "VG_102",
-                    "VG_103",
-                    "VG_104",
-                    "VG_105",
-                    "VG_106",
-                    "VG_107",
-                    "VG_199"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_104": "Transpordivahendid",
+                    "VG_105": "Arvutid ja arvutisüsteemid",
+                    "VG_106": "Meditsiiniseadmed",
+                    "VG_107": "Masinad ja seadmed ning inventar"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -481,18 +474,17 @@
                 "et": "Materiaalne põhivara - Akumuleerunud kulum"
             },
             "subAccounts": {
-                "VARAGRUPP2024ap": [
-                    "VG_101",
-                    "VG_102",
-                    "VG_103",
-                    "VG_104",
-                    "VG_105",
-                    "VG_106",
-                    "VG_107",
-                    "VG_199"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_104": "Transpordivahendid",
+                    "VG_105": "Arvutid ja arvutisüsteemid",
+                    "VG_106": "Meditsiiniseadmed",
+                    "VG_107": "Masinad ja seadmed ning inventar"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -501,19 +493,18 @@
                 "et": "Materiaalne põhivara - Lõpetamata projektid"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_101",
-                    "VG_102",
-                    "VG_103",
-                    "VG_104",
-                    "VG_105",
-                    "VG_106",
-                    "VG_107",
-                    "VG_199"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_104": "Transpordivahendid",
+                    "VG_105": "Arvutid ja arvutisüsteemid",
+                    "VG_106": "Meditsiiniseadmed",
+                    "VG_107": "Masinad ja seadmed ning inventar"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -522,19 +513,18 @@
                 "et": "Materiaalne põhivara - Lõpetamata projektid - kapitaliseeritud laenukulutused"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_101",
-                    "VG_102",
-                    "VG_103",
-                    "VG_104",
-                    "VG_105",
-                    "VG_106",
-                    "VG_107",
-                    "VG_199"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_104": "Transpordivahendid",
+                    "VG_105": "Arvutid ja arvutisüsteemid",
+                    "VG_106": "Meditsiiniseadmed",
+                    "VG_107": "Masinad ja seadmed ning inventar"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -543,18 +533,17 @@
                 "et": "Materiaalne põhivara - Ettemaksed"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_101",
-                    "VG_102",
-                    "VG_103",
-                    "VG_104",
-                    "VG_105",
-                    "VG_106",
-                    "VG_107",
-                    "VG_199"
-                ],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_104": "Transpordivahendid",
+                    "VG_105": "Arvutid ja arvutisüsteemid",
+                    "VG_106": "Meditsiiniseadmed",
+                    "VG_107": "Masinad ja seadmed ning inventar"
+                },
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -563,16 +552,15 @@
                 "et": "Immateriaalne põhivara soetusmaksumuses"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_108",
-                    "VG_109",
-                    "VG_110",
-                    "VG_111",
-                    "VG_199"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_108": "Firmaväärtus",
+                    "VG_109": "Arenguväljaminekud",
+                    "VG_110": "Arvutitarkvara",
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -581,15 +569,14 @@
                 "et": "Immateriaalne põhivara - Akumuleerunud kulum"
             },
             "subAccounts": {
-                "VARAGRUPP2024ap": [
-                    "VG_108",
-                    "VG_109",
-                    "VG_110",
-                    "VG_111",
-                    "VG_199"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "VARAGRUPP2024ap": {
+                    "VG_108": "Firmaväärtus",
+                    "VG_109": "Arenguväljaminekud",
+                    "VG_110": "Arvutitarkvara",
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -598,16 +585,15 @@
                 "et": "Immateriaalne põhivara - Lõpetamata projektid"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_108",
-                    "VG_109",
-                    "VG_110",
-                    "VG_111",
-                    "VG_199"
-                ],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_108": "Firmaväärtus",
+                    "VG_109": "Arenguväljaminekud",
+                    "VG_110": "Arvutitarkvara",
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid"
+                },
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -616,15 +602,14 @@
                 "et": "Immateriaalne põhivara - Ettemaksed"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_108",
-                    "VG_109",
-                    "VG_110",
-                    "VG_111",
-                    "VG_199"
-                ],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_108": "Firmaväärtus",
+                    "VG_109": "Arenguväljaminekud",
+                    "VG_110": "Arvutitarkvara",
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid"
+                },
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -633,7 +618,7 @@
                 "et": "Võlad - Tarnijad (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -642,7 +627,7 @@
                 "et": "Võlad - Töövõtjad - palgavõlg (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -651,7 +636,7 @@
                 "et": "Võlad - Töövõtjad - puhkusereserv (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -660,7 +645,7 @@
                 "et": "Võlad - Töövõtjad - Muu arvestatud tasud koos maksudega (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -746,7 +731,7 @@
                 "et": "Võlad - Arvelduskrediit"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -755,8 +740,8 @@
                 "et": "Võlad - Laenud (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -765,9 +750,9 @@
                 "et": "Võlad - Kapitalirent (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -776,8 +761,8 @@
                 "et": "Võlad - Võlakirjad (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -786,7 +771,7 @@
                 "et": "Võlad - Intressid (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -795,7 +780,7 @@
                 "et": "Võlad - Dividendid (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -804,8 +789,8 @@
                 "et": "Võlad - Muud (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -814,7 +799,7 @@
                 "et": "Saadud Ettemaksed - Tulevaste perioodide tulud (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -823,7 +808,7 @@
                 "et": "Saadud Ettemaksed - Muud (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -832,8 +817,8 @@
                 "et": "Eraldised - Garantiieraldis (Lühiajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -842,8 +827,8 @@
                 "et": "Eraldised - Maksueraldis (Lühiajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -852,8 +837,8 @@
                 "et": "Eraldised - Muud (Lühiajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -862,8 +847,8 @@
                 "et": "Sihtfinantseerimise ettemaksed - Tegevuskulud (Lühiajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -872,7 +857,7 @@
                 "et": "Võlad - Tarnijad (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -881,7 +866,7 @@
                 "et": "Võlad - Töövõtjad (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -897,8 +882,8 @@
                 "et": "Võlad - Laenud (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -907,9 +892,9 @@
                 "et": "Võlad - Kapitalirent (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -918,8 +903,8 @@
                 "et": "Võlad - Võlakirjad (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -928,8 +913,8 @@
                 "et": "Võlad - Muud (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -938,7 +923,7 @@
                 "et": "Saadud Ettemaksed - Tulevaste perioodide tulud (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -947,7 +932,7 @@
                 "et": "Saadud Ettemaksed - Muud (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -956,8 +941,8 @@
                 "et": "Eraldised - Garantiieraldis (Pikaajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -966,8 +951,8 @@
                 "et": "Eraldised - Maksueraldis (Pikaajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -976,8 +961,8 @@
                 "et": "Eraldised - Muud (Pikaajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -986,9 +971,9 @@
                 "et": "Sihtfinantseerimise ettemaksed - Põhivara (Pikaajaline)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -997,8 +982,8 @@
                 "et": "Sihtfinantseerimise ettemaksed - Sihtfinantseerimise amortisatsioon (Pikaajaline)"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -1007,7 +992,7 @@
                 "et": "Omakapital - Registreeritud"
             },
             "subAccounts": {
-                "MUUTUSELIIK2024ap": []
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -1016,7 +1001,7 @@
                 "et": "Omakapital - Registreerimata"
             },
             "subAccounts": {
-                "MUUTUSELIIK2024ap": []
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -1025,7 +1010,7 @@
                 "et": "Omakapital - Sisse maksmata"
             },
             "subAccounts": {
-                "MUUTUSELIIK2024ap": []
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -1034,7 +1019,7 @@
                 "et": "Omakapital - Ülekurss"
             },
             "subAccounts": {
-                "MUUTUSELIIK2024ap": []
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -1043,7 +1028,7 @@
                 "et": "Omakapital - Omaosad/aktisad"
             },
             "subAccounts": {
-                "MUUTUSELIIK2024ap": []
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -1052,7 +1037,7 @@
                 "et": "Omakapital - Muud"
             },
             "subAccounts": {
-                "MUUTUSELIIK2024ap": []
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -1061,7 +1046,7 @@
                 "et": "Reservid - Kohustuslik reservkapital"
             },
             "subAccounts": {
-                "MUUTUSELIIK2024ap": []
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -1070,8 +1055,8 @@
                 "et": "Reservid - Muud"
             },
             "subAccounts": {
-                "ANDMETEESITLUSVIIS2024ap": [],
-                "MUUTUSELIIK2024ap": []
+                "ANDMETEESITLUSVIIS2024ap": {},
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -1080,7 +1065,7 @@
                 "et": "Kasumid/kahjumid - Akumuleerunud"
             },
             "subAccounts": {
-                "MUUTUSELIIK2024ap": []
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -1089,7 +1074,7 @@
                 "et": "Kasumid/kahjumid - Aruandeperiood"
             },
             "subAccounts": {
-                "MUUTUSELIIK2024ap": []
+                "MUUTUSELIIK2024ap": {}
             }
         },
         {
@@ -1098,9 +1083,9 @@
                 "et": "Müügitulu - Tulu ettevõtlusest"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "EMTAK2008ap": [],
-                "RTK2T2013ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "EMTAK2008ap": {},
+                "RTK2T2013ap": {}
             }
         },
         {
@@ -1109,9 +1094,9 @@
                 "et": "Müügitulu - Liikmemaksud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "EMTAK2008ap": [],
-                "RTK2T2013ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "EMTAK2008ap": {},
+                "RTK2T2013ap": {}
             }
         },
         {
@@ -1120,9 +1105,9 @@
                 "et": "Müügitulu - Sisseastumistasud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "EMTAK2008ap": [],
-                "RTK2T2013ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "EMTAK2008ap": {},
+                "RTK2T2013ap": {}
             }
         },
         {
@@ -1131,9 +1116,9 @@
                 "et": "Müügitulu - Hooldustasud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "EMTAK2008ap": [],
-                "RTK2T2013ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "EMTAK2008ap": {},
+                "RTK2T2013ap": {}
             }
         },
         {
@@ -1142,9 +1127,9 @@
                 "et": "Müügitulu - Remonditasud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "EMTAK2008ap": [],
-                "RTK2T2013ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "EMTAK2008ap": {},
+                "RTK2T2013ap": {}
             }
         },
         {
@@ -1153,9 +1138,9 @@
                 "et": "Müügitulu - Muud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "EMTAK2008ap": [],
-                "RTK2T2013ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "EMTAK2008ap": {},
+                "RTK2T2013ap": {}
             }
         },
         {
@@ -1164,8 +1149,8 @@
                 "et": "Kulud - Tooraine ja materjal põhitegevuseks"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1174,8 +1159,8 @@
                 "et": "Kulud - Varude allahindlus ja mahakandmine"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1184,8 +1169,8 @@
                 "et": "Kulud - Müügi eesmärgil ostetud kaubad, toore, materjal"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1194,8 +1179,8 @@
                 "et": "Kulud - Müügi eesmärgil ostetud kinnisvara"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1204,8 +1189,8 @@
                 "et": "Kulud - Müügi eesmärgil ostetud teenused"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1214,8 +1199,8 @@
                 "et": "Kulud - Elektrienergia"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1224,8 +1209,8 @@
                 "et": "Kulud - Soojusenergia"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1234,8 +1219,8 @@
                 "et": "Kulud - Kütus"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1244,8 +1229,8 @@
                 "et": "Kulud - Veevarustusteenused"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1254,8 +1239,8 @@
                 "et": "Kulud - Alltöövõtutööd- ehitus hoonetes"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1264,8 +1249,8 @@
                 "et": "Kulud - Alltöövõtutööd- ehitusel (va hoonetes)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1274,8 +1259,8 @@
                 "et": "Kulud - Alltöövõtutööd- tööstustoodangu allhange"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1284,8 +1269,8 @@
                 "et": "Kulud - Alltöövõtutööd - Muud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1294,8 +1279,8 @@
                 "et": "Kulud - Transpordikulud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1304,8 +1289,8 @@
                 "et": "Kulud - Logistikakulud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1314,8 +1299,8 @@
                 "et": "Kulud - Maarent"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1324,8 +1309,8 @@
                 "et": "Kulud - Kinnistute, hoonete ja ruumide rent"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1334,8 +1319,8 @@
                 "et": "Kulud - Transpordivahendite rent"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1344,8 +1329,8 @@
                 "et": "Kulud - Tööjõurent"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1354,8 +1339,8 @@
                 "et": "Kulud - Muu vara rent"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1364,9 +1349,9 @@
                 "et": "Kulud - Varade hooldus ja remont"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1375,8 +1360,8 @@
                 "et": "Kulud - Tööriistad ja väheväärtuslikud varad"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1385,8 +1370,8 @@
                 "et": "Kulud - Turunduse ja reklaami kulud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1395,8 +1380,8 @@
                 "et": "Kulud - Uurimis- ja arengukulud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1405,8 +1390,8 @@
                 "et": "Kulud - Ostetud muud teenused (oma tarbeks)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1415,8 +1400,8 @@
                 "et": "Kulud - Mitmesugused bürookulud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1425,8 +1410,8 @@
                 "et": "Kulud - Lähetuskulud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1435,8 +1420,8 @@
                 "et": "Kulud - Koolituskulud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1445,8 +1430,8 @@
                 "et": "Kulud - Töö- ja eririiete kulu"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1455,8 +1440,8 @@
                 "et": "Kulud - Vooditarvikute kulu"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1465,8 +1450,8 @@
                 "et": "Kulud - Riiklikud ja kohalikud maksud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1475,8 +1460,8 @@
                 "et": "Kulud - Riigilõiv"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1485,8 +1470,8 @@
                 "et": "Kulud - Kulud eraldiste moodustamiseks"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1495,8 +1480,8 @@
                 "et": "Kulud - Kulu ebatõenäoliselt laekuvatest nõuetest"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1505,8 +1490,8 @@
                 "et": "Kulud - Jagatud annetused ja toetused"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1515,8 +1500,8 @@
                 "et": "Kulud - Muud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1525,8 +1510,8 @@
                 "et": "Tööjõukulud - Palgakulu"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1535,8 +1520,8 @@
                 "et": "Tööjõukulud - Sotsiaalmaks ja tööandja töötuskindlustusmakse"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1545,8 +1530,8 @@
                 "et": "Tööjõukulud - Pensionikulu"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1555,8 +1540,8 @@
                 "et": "Tööjõukulud - Erisoodustused"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1565,8 +1550,8 @@
                 "et": "Tööjõukulud - Erisoodustuse maksud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1575,8 +1560,8 @@
                 "et": "Tööjõukulud - Muud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1585,8 +1570,8 @@
                 "et": "Kulum - Kulum ja väärtuse langus"
             },
             "subAccounts": {
-                "VARAGRUPP2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "VARAGRUPP2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1595,9 +1580,9 @@
                 "et": "Muud tulud - Põhivara sihtfinantseerimine"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1606,8 +1591,8 @@
                 "et": "Muud tulud - Tegevuskulude sihtfinantseerimine"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "ANDMETEESITLUSVIIS2024ap": []
+                "SEOTUDOSAPOOL2024ap": {},
+                "ANDMETEESITLUSVIIS2024ap": {}
             }
         },
         {
@@ -1616,7 +1601,7 @@
                 "et": "Muud tulud - Annetused"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1625,7 +1610,7 @@
                 "et": "Muud tulud - Rendi- ja üüritulu"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1634,7 +1619,7 @@
                 "et": "Muud tulud - Litsentsitasud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1650,14 +1635,13 @@
                 "et": "Muud tulud - Põllumajandusliku toodangu varude jääkide muutus"
             },
             "subAccounts": {
-                "VARAGRUPP2024ap": [
-                    "VG_112",
-                    "VG_113",
-                    "VG_114",
-                    "VG_115",
-                    "VG_116",
-                    "VG_199"
-                ]
+                "VARAGRUPP2024ap": {
+                    "VG_112": "Loomsed varad",
+                    "VG_113": "Istandikud",
+                    "VG_114": "Mets",
+                    "VG_115": "Vili",
+                    "VG_116": "Rohumaad"
+                }
             }
         },
         {
@@ -1666,7 +1650,7 @@
                 "et": "Muud tulud - Kapitaliseeritud väljaminekud oma tarbeks põhivarade valmistamisel"
             },
             "subAccounts": {
-                "VARAGRUPP2024ap": []
+                "VARAGRUPP2024ap": {}
             }
         },
         {
@@ -1675,7 +1659,7 @@
                 "et": "Muud tulud - Muud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1684,12 +1668,12 @@
                 "et": "Äritulu ja kulu - Kinnisvarainvesteeringute müük (Kasum/kahjum)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_101",
-                    "VG_102",
-                    "VG_103"
-                ]
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)"
+                }
             }
         },
         {
@@ -1698,21 +1682,20 @@
                 "et": "Äritulu ja kulu - Materiaalse ja immateriaalse põhivarade müük (Kasum/kahjum)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_101",
-                    "VG_102",
-                    "VG_103",
-                    "VG_104",
-                    "VG_105",
-                    "VG_106",
-                    "VG_107",
-                    "VG_108",
-                    "VG_109",
-                    "VG_110",
-                    "VG_111",
-                    "VG_199"
-                ]
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_104": "Transpordivahendid",
+                    "VG_105": "Arvutid ja arvutisüsteemid",
+                    "VG_106": "Meditsiiniseadmed",
+                    "VG_107": "Masinad ja seadmed ning inventar",
+                    "VG_108": "Firmaväärtus",
+                    "VG_109": "Arenguväljaminekud",
+                    "VG_110": "Arvutitarkvara",
+                    "VG_111": "Kontsessioonid, patendid, litsentsid, kaubamärgid"
+                }
             }
         },
         {
@@ -1721,18 +1704,17 @@
                 "et": "Äritulu ja kulu - Kasum ja kahjum varade õiglase väärtuse muutusest- Kinnisvarainvesteeringud ja bioloogilised varad"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [],
-                "VARAGRUPP2024ap": [
-                    "VG_101",
-                    "VG_102",
-                    "VG_103",
-                    "VG_112",
-                    "VG_113",
-                    "VG_114",
-                    "VG_115",
-                    "VG_116",
-                    "VG_199"
-                ]
+                "SEOTUDOSAPOOL2024ap": {},
+                "VARAGRUPP2024ap": {
+                    "VG_101": "Maa",
+                    "VG_102": "Hooned  ja rajatised (kasutatud)",
+                    "VG_103": "Hooned  ja rajatised (uued)",
+                    "VG_112": "Loomsed varad",
+                    "VG_113": "Istandikud",
+                    "VG_114": "Mets",
+                    "VG_115": "Vili",
+                    "VG_116": "Rohumaad"
+                }
             }
         },
         {
@@ -1741,7 +1723,7 @@
                 "et": "Äritulu ja kulu - Valuutakursi muutused seoses äritegevusega (Kasum/kahjum)"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1750,7 +1732,7 @@
                 "et": "Äritulu ja kulu - Trahvid, viivised ja hüvitised"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1759,7 +1741,7 @@
                 "et": "Äritulu ja kulu - Liikmemaksud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1768,7 +1750,7 @@
                 "et": "Äritulu ja kulu - Muud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1777,10 +1759,10 @@
                 "et": "Finantstulud ja kulud - Tütar- ja sidusettevõtjad"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": [
-                    "SOP_12",
-                    "SOP_13"
-                ]
+                "SEOTUDOSAPOOL2024ap": {
+                    "SOP_12": "Tütarettevõtja",
+                    "SOP_13": "Sidusettevõtja"
+                }
             }
         },
         {
@@ -1789,7 +1771,7 @@
                 "et": "Finantstulud ja kulud - Muud investeeringud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1798,7 +1780,7 @@
                 "et": "Finantstulud ja kulud - Intressitulu"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1807,7 +1789,7 @@
                 "et": "Finantstulud ja kulud - Intressikulu - kasutusrent"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1816,7 +1798,7 @@
                 "et": "Finantstulud ja kulud - Intressikulu laenud ja kapitalirent"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {
@@ -1825,7 +1807,7 @@
                 "et": "Finantstulud ja kulud - Muud"
             },
             "subAccounts": {
-                "SEOTUDOSAPOOL2024ap": []
+                "SEOTUDOSAPOOL2024ap": {}
             }
         },
         {

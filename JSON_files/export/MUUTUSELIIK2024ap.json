@@ -1,0 +1,97 @@
+{
+    "code": "MUUTUSELIIK2024ap",
+    "name": {
+        "et": "Deebet või kreedit muutuse liik",
+        "en": "Type of debit or credit change"
+    },
+    "elements": [
+        {
+            "code": "ML_11",
+            "name": {
+                "et": "Suurenemine",
+                "en": "Increase"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "ML_12",
+            "name": {
+                "et": "Vähenemine",
+                "en": "Decrease"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "ML_13",
+            "name": {
+                "et": "Ümberliigitamine",
+                "en": "Reclassification"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "ML_14",
+            "name": {
+                "et": "Äriühendus",
+                "en": "Bussiness combination"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "ML_15",
+            "name": {
+                "et": "Väärtuse muutus",
+                "en": "Revaluation"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "ML_16",
+            "name": {
+                "et": "Amortisatsioon",
+                "en": "Depreciation"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "ML_20",
+            "name": {
+                "et": "Annetatud (mitterahaline)",
+                "en": "Donation (NonMonetary)"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "ML_21",
+            "name": {
+                "et": "Omatarve",
+                "en": "Used by Own"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "ML_22",
+            "name": {
+                "et": "Omal jõul valmistatud vara",
+                "en": "Own-produced assets"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "ML_23",
+            "name": {
+                "et": "Dividendid",
+                "en": "Dividends"
+            },
+            "valid_from_date": "2024-01-01"
+        },
+        {
+            "code": "ML_99",
+            "name": {
+                "et": "Muud muutused",
+                "en": "Other changes"
+            },
+            "valid_from_date": "2024-01-01"
+        }
+    ]
+}

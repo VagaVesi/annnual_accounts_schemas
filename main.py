@@ -6,20 +6,22 @@ from datetime import datetime
 
 
 def main():
-    # json_document = "JSON_files/samples/classification_varagrupp.json"
-    # json_schema = "JSON_files/schemas/classification_elements_schema.json"
-
-    # xls_file = "JSON_files/import/AA_MAJANDUSTEHINGUD_20231102.xlsx"
+    """Make classification JSON file."""
+    # xls_file = "JSON_files/import/AA_MAJANDUSTEHINGUD_2024-03-19.xlsx"
     # classification_code = "ANDMETEESITLUSVIIS2024ap"
+    # classification_name_ML = {"et": "Deebet või kreedit muutuse liik", "en":"Type of debit or credit change"}
+    # classification_name_VG = {"et": "Vara grupp", "en":"Asset group"}
+    # classification_name_SOP = {"et": "Seotud osapoole liik", "en":"Type of related party"}
+    # classification_name = {"et": "Andmete esitlusviis", "en":"Presentation of data"}
     # raw_data = FileOperations.load_classification_from_excel(xls_file, classification_code)
-    # #print(raw_data)
-    # result = Converter.convert_xls_to_classification_json(raw_data, classification_code)
+    # result = Converter.convert_xls_to_classification_json(raw_data, classification_code, classification_name)
+    # FileOperations.save_dict_to_json_file(result, classification_code)
 
     """Validate JSON sample."""
-    json_document = "JSON_files/samples/EE0301020_sample_report_standard_small.json"
-    json_schema = "JSON_files/schemas/EE0301020_schema.json"
-    validation_result = Validator.validate_json(json_document, json_schema)
-    print(validation_result)
+    # json_document = "JSON_files/samples/EE0301020_sample_report_standard_small.json"
+    # json_schema = "JSON_files/schemas/EE0301020_schema.json"
+    # validation_result = Validator.validate_json(json_document, json_schema)
+    # print(validation_result)
 
     """Validate XML sample."""
     # xml_file = FileOperations.open_file("XML_files/sample_reports/EE0302010_sample_report_stardard_small.xml")
@@ -28,18 +30,19 @@ def main():
     # errors = Validator.get_xml_validation_errors(xml_file, "http://www.xbrl.org/taxonomy/int/gl/2015-03-25/plt/case-c-b-m/gl-plt-all-2015-03-25.xsd")
     # print (errors)
 
+    """Convert XML to JSON object and simple validation"""
     # data_from_xml_file = Converter.convert_xml_to_dict('XML_files/sample_reports/EE0301020_sample_report_stardard_small.xml')
     # clean = XBRLGLValidator.format_xbrlgl_to_dict(data_from_xml_file)
     # is_equal = XBRLGLValidator.compare_debit_credit(clean)
     # print(is_equal)
 
-
     """Generate bussiness rules json main->sub."""
-    # xls_file = "JSON_files/import/Subaccount_limitations.xlsx"
-    # raw_data = FileOperations.load_subaccount_limitations_from_excel(xls_file, "Sheet1")
-    # result = Converter.convert_xls_to_subaccount_limitations_json(raw_data)
-    # FileOperations.save_dict_to_json_file(result, "subaccount_limitations")
+    xls_file = "JSON_files/import/Subaccount_limitations.xlsx"
+    raw_data = FileOperations.load_subaccount_limitations_from_excel(xls_file, "Sheet1")
+    result = Converter.convert_xls_to_subaccount_limitations_json(raw_data)
+    FileOperations.save_dict_to_json_file(result, "subaccount_limitations")
 
+    # Converter.make_element_code_and_name_pairs('VG_112, VG_113, VG_114, VG_115, VG_116, VG_199', "VARAGRUPP2024ap")
 
 if __name__ == "__main__":
     main()
