@@ -18,10 +18,10 @@ def main():
     # FileOperations.save_dict_to_json_file(result, classification_code)
 
     """Validate JSON sample."""
-    # json_document = "JSON_files/samples/EE0301020_sample_report_standard_small.json"
-    # json_schema = "JSON_files/schemas/EE0301020_schema.json"
-    # validation_result = Validator.validate_json(json_document, json_schema)
-    # print(validation_result)
+    json_document = "JSON_files/export/VARAGRUPP2024ap.json"
+    json_schema = "JSON_files/schemas/classification_elements_schema.json"
+    validation_result = Validator.validate_json(json_document, json_schema)
+    print(validation_result)
 
     """Validate XML sample."""
     # xml_file = FileOperations.open_file("XML_files/sample_reports/EE0302010_sample_report_stardard_small.xml")
@@ -37,10 +37,10 @@ def main():
     # print(is_equal)
 
     """Generate bussiness rules json main->sub."""
-    xls_file = "JSON_files/import/Subaccount_limitations.xlsx"
-    raw_data = FileOperations.load_subaccount_limitations_from_excel(xls_file, "Sheet1")
-    result = Converter.convert_xls_to_subaccount_limitations_json(raw_data)
-    FileOperations.save_dict_to_json_file(result, "subaccount_limitations")
+    # xls_file = "JSON_files/import/Subaccount_limitations.xlsx"
+    # raw_data = FileOperations.load_subaccount_limitations_from_excel(xls_file, "Sheet1")
+    # result = Converter.convert_xls_to_subaccount_limitations_json(raw_data)
+    # FileOperations.save_dict_to_json_file(result, "subaccount_limitations")
 
     # Converter.make_element_code_and_name_pairs('VG_112, VG_113, VG_114, VG_115, VG_116, VG_199', "VARAGRUPP2024ap")
 

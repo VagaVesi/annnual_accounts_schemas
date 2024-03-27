@@ -33,16 +33,20 @@ class Converter:
                         element['name'].update({'en': y[i]})
                     elif x == 'validFromDate':
                         element['valid_from_date'] = str(y[i].date())[:10]
+                    elif x == 'validUntilDate':
+                        element['valid_until_date'] = str(y[i].date())[:10]
                     # add all other fields in table
                     # else:
                     #     # element[x] = y[i]
             result["elements"].append(element)
         return result
     
-    def clear_string (sentence: str) -> str:
+    def clear_string_name (sentence: str) -> str:
         return sentence.replace("(", " (").replace("  ", " ").replace(u"\u00A0", "")
     
     def make_element_code_and_name_pairs (list_of_codes: str, classification_code: str) -> dict:
+        if len(list_of_codes) == 0 or len(classification_code) == 0:
+            return {}
         codes = [s.strip() for s in list_of_codes.split((","))]
         file_name = "JSON_files/export/" + classification_code + ".json"
         element_pairs = {}
@@ -62,7 +66,7 @@ class Converter:
             for x, y in xls_raw.items():
                 if notna(y[i]):
                     if x == 'name_ET':
-                        element['name'].update({'et': Converter.clear_string(y[i])})
+                        element['name'].update({'et': Converter.clear_string_name(y[i])})
                     elif x == 'MUUTUSELIIK2024ap':
                         if y[i] == 'all':
                             element['subAccounts'].update({'MUUTUSELIIK2024ap': {}})
