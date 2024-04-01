@@ -4,6 +4,7 @@ import json
 
 
 class FileOperations:
+    """Load data from file and save data to file"""
 
     def open_file(file_name: str) -> str:
         try:
@@ -14,25 +15,19 @@ class FileOperations:
             print("File not found: " + file_name)
             return False
 
-    def load_classification_from_excel(file_name: str, sheetname: str) -> dict:
+    def load_data_from_excel_return_dict(file_name: str, sheetname: str, skip_rows: int) -> dict:
+        """Load data from excel file"""
         try:
-            loaded_data = pd.read_excel(file_name, sheetname, skiprows=5)
+            loaded_data = pd.read_excel(file_name, sheetname, skiprows=skip_rows)
             result = loaded_data.to_dict()
             return result
         except:
             print("File not found: " + file_name)
             return False
 
-    def load_subaccount_limitations_from_excel(file_name: str, sheetname: str) -> dict:
-        try:
-            loaded_data = pd.read_excel(file_name, sheetname)
-            result = loaded_data.to_dict()
-            return result
-        except:
-            print("File not found: " + file_name)
-            return False
 
     def save_dict_to_json_file(dict_object: dict, file_name: str) -> bool:
+        """Make json file from dict"""
         try:
             output = "JSON_files/export/" + file_name + ".json"
             with open(output, "w", encoding='utf-8') as outfile:

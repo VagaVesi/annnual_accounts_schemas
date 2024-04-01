@@ -5,6 +5,7 @@ DATASET_BALANCE_STANDARD_ENTITY = 'EE0301020'
 DATASET_CHANGES_STANDARD_ENTITY = 'EE0302010'
 
 class XBRLGLValidator:
+    """Makse json object from xbrl-gl instance"""
 
     def format_xbrlgl_to_dict(source_data: dict) -> dict:
         result = {"header":
