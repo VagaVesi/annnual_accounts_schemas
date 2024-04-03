@@ -202,7 +202,7 @@
 					</gl-cor:accountSub>
 					<gl-cor:accountSub>
 						<gl-cor:accountSubID contextRef="now">71111</gl-cor:accountSubID>		
-						<gl-cor:accountSubType contextRef="now">EMTAK2025</gl-cor:accountSubType>									
+						<gl-cor:accountSubType contextRef="now">EMTAK2008ap</gl-cor:accountSubType>									
 					</gl-cor:accountSub>
 				</gl-cor:account>
 				<gl-cor:amount contextRef="now" decimals="2" unitRef="eur">12990.00</gl-cor:amount>

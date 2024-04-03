@@ -63,7 +63,8 @@
                                 "accountSub":{
                                     "type": "object",
                                     "properties":{
-                                       "EMTAK2025":{"type": "string", "pattern":"^\\d{5}$"}
+                                        "SEOTUDOSAPOOL2024ap":{"type": "string", "pattern":"^SOP_\\d{2}$"},
+                                        "EMTAK2025ap":{"type": "string", "pattern":"^\\d{5}$"}
                                     },
                                     "additionalProperties": false
                                     },
