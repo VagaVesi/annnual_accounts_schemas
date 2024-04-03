@@ -58,7 +58,7 @@
 		<!-- Järgneb andmeid esitavga ühingu info plokk -->
 		<gl-cor:entityInformation>
 			<gl-bus:organizationIdentifiers>
-				<gl-bus:organizationIdentifier contextRef="now">EE11308014</gl-bus:organizationIdentifier>
+				<gl-bus:organizationIdentifier contextRef="now">11308014</gl-bus:organizationIdentifier>
 				<gl-bus:organizationDescription contextRef="now">e-äriregister</gl-bus:organizationDescription>
 			</gl-bus:organizationIdentifiers>
 		</gl-cor:entityInformation>

@@ -24,7 +24,7 @@
                 "creator": {"type:": "string"},
                 "periodCoveredStart": {"type:": "string", "format": "date", "pattern":"^([1-2]\\d{3})-([0][1-9]|[1][0-2])-([0][1-9]|[12][0-9]|[3][0-1])$"},
                 "periodCoveredEnd": {"type:": "string", "format": "date", "pattern":"^([1-2]\\d{3})-([0][1-9]|[1][0-2])-([0][1-9]|[12][0-9]|[3][0-1])$"},
-                "sourceApplication": {"type:": "string"},
+                "sourceApplication": {"type:": "string", "enum":["e-arveldaja", "SAF"]},
                 "defaultCurrency": {"type:": "string", "const": "iso4217:eur"}      
             }
         },  
@@ -35,8 +35,8 @@
                 "organizationDescription"
             ],
             "properties": { 
-                "organizationIdentifier": {"type:": "string"},
-                "organizationDescription": {"type:": "string"}
+                "organizationIdentifier": {"type:": "string", "pattern":"^\\d{8}$"},
+                "organizationDescription": {"type:": "string", "const": "e-äriregister"}
         }},
         "datasets":{
             "type:": "array",
