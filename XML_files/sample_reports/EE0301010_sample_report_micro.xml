@@ -12,7 +12,7 @@
 
 	<xbrli:context id="now">
 		<xbrli:entity>
-			<xbrli:identifier scheme="http://www.ariregister.rik.ee">11308014</xbrli:identifier>
+			<xbrli:identifier scheme="https://ariregister.rik.ee">11308014</xbrli:identifier>
 		</xbrli:entity>
 		<xbrli:period>
 			<xbrli:instant>2023-09-27</xbrli:instant>
