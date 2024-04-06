@@ -14,7 +14,7 @@
 	<!-- Kontekst, mille kohta Andmestikud esitatakse, on kohustuslik. Andmestiku koostamise kuupäev ja esitaja kood-->
 	<xbrli:context id="now">
 		<xbrli:entity>
-			<xbrli:identifier scheme="http://www.ariregister.rik.ee">11308014</xbrli:identifier>
+			<xbrli:identifier scheme="https://ariregister.rik.ee">11308014</xbrli:identifier>
 		</xbrli:entity>
 		<xbrli:period>
 			<!--Andmete genereerimise kuupäev-->
