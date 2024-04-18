@@ -4,7 +4,7 @@ from app.file_operations import FileOperations
 import json
 
 class Validator:
-    """Validates files against schemas"""
+    """Validates files against schemas."""
 
     def validate_xml(xml_document: str, schema: str) -> bool :
         if(xml_document == False or schema == False):

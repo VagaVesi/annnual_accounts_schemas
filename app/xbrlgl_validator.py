@@ -5,9 +5,15 @@ DATASET_BALANCE_STANDARD_ENTITY = 'EE0301020'
 DATASET_CHANGES_STANDARD_ENTITY = 'EE0302010'
 
 class XBRLGLValidator:
-    """Makse json object from xbrl-gl instance"""
+    """Validate XBRL-GL xml data.
+    
+    functions:
+    convert_xbrlglxml_to_dict: Make json object from xbrl-gl instance
+    compare_debit_credit: Simple validation (comparsion)
+    """
 
-    def format_xbrlgl_to_dict(source_data: dict) -> dict:
+    def convert_xbrlglxml_to_dict(source_data: dict) -> dict:
+
         result = {"header":
                   {"uniqueID": source_data['xbrli:xbrl']['gl-cor:accountingEntries']['gl-cor:documentInfo']['gl-cor:uniqueID'],
                    'creationDate': source_data['xbrli:xbrl']['gl-cor:accountingEntries']['gl-cor:documentInfo']['gl-cor:creationDate'],
@@ -33,7 +39,12 @@ class XBRLGLValidator:
         return result
 
     def compare_debit_credit(source_data_formatted: dict) -> Decimal:
-        # returns difference between D-C
+        """Compare Debit and Credit total amounts.
+        
+        arg: data from xml converter to dict 
+        return(decimal): difference debit_total-credit_total
+        """
+        
         elements = source_data_formatted['details']
         debit_total = Decimal(2)
         credit_total = Decimal(2)

@@ -1,10 +1,10 @@
-import xmlschema;
 from pandas import notna
 import xmltodict
 from app.file_operations import FileOperations
 import json
 
 class Converter:
+    """Convert data from one format to another."""
  
     def convert_xml_to_dict(xml_document_path:str) -> dict:
         """Make dictionary from xml data"""
@@ -14,8 +14,11 @@ class Converter:
     
     def convert_xls_to_classification_json(xls_raw: dict, classification_code: str, classification_name: dict) -> dict:
         """Make classification JSON from xls source
+
         xls_raw: xls source form load_classification_from_excel
-        classification_code & classification_name : values to json file 
+        classification_code: values to json file 
+        classification_name: values to json file
+        retuns: resutlt in dictionary format
         """
 
         result = {"code": classification_code,
@@ -43,11 +46,11 @@ class Converter:
         return result
     
     def clear_string_name (sentence: str) -> str:
-        """Correct classification name string"""
+        """Correct typos in classification name string"""
         return sentence.replace("(", " (").replace("  ", " ").replace(u"\u00A0", "")
     
     def make_element_code_and_name_pairs (list_of_codes: str, classification_code: str) -> dict:
-        """Make available elements pairs list based on list_of_codes
+        """Make available elements pairs list based on list_of_codes.
         Loads classifications from classification_code json 
         """
         if len(list_of_codes) == 0 or len(classification_code) == 0:
@@ -64,7 +67,7 @@ class Converter:
         return element_pairs
 
     def convert_xls_to_subaccount_limitations_json(xls_raw: dict) -> dict:
-        """Make from xls file JSON dict"""
+        """Make from xls file JSON dict."""
         result = {"limitations":[]}
         elements_count = len(xls_raw['code'])
         for i in range(0, elements_count):  

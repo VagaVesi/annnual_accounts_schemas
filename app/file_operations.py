@@ -1,10 +1,9 @@
-import os
 import pandas as pd
 import json
 
 
 class FileOperations:
-    """Load data from file and save data to file"""
+    """Load data from file or save data to file."""
 
     def open_file(file_name: str) -> str:
         try:
@@ -16,7 +15,7 @@ class FileOperations:
             return False
 
     def load_data_from_excel_return_dict(file_name: str, sheetname: str, skip_rows: int) -> dict:
-        """Load data from excel file"""
+        """Load data from excel file."""
         try:
             loaded_data = pd.read_excel(file_name, sheetname, skiprows=skip_rows)
             result = loaded_data.to_dict()
