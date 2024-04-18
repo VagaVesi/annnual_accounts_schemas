@@ -32,7 +32,7 @@ def main():
 
     """Convert XML to JSON object and simple validation"""
     # data_from_xml_file = Converter.convert_xml_to_dict('XML_files/sample_reports/EE0301020_sample_report_stardard_small.xml')
-    # clean = XBRLGLValidator.format_xbrlgl_to_dict(data_from_xml_file)
+    # clean = XBRLGLValidator.convert_xbrlglxml_to_dict(data_from_xml_file)
     # is_equal = XBRLGLValidator.compare_debit_credit(clean)
     # print(is_equal)
 
