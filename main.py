@@ -18,17 +18,20 @@ def main():
     # FileOperations.save_dict_to_json_file(result, classification_code)
 
     """Validate JSON sample."""
-    # json_document = "JSON_files/export/VARAGRUPP2024ap.json"
-    # json_schema = "JSON_files/schemas/classification_elements_schema.json"
+    # json_document = "JSON_files/sample_reports/EE0301020_sample_report_standard_small.json"
+    # json_schema = "JSON_files/schemas/EE0301020_schema.json"
     # validation_result = Validator.validate_json(json_document, json_schema)
     # print(validation_result)
 
     """Validate XML sample."""
-    # xml_file = FileOperations.open_file("XML_files/sample_reports/EE0302010_sample_report_stardard_small.xml")
-    # is_xml_valid = Validator.validate_xml(xml_file, "http://www.xbrl.org/taxonomy/int/gl/2015-03-25/plt/case-c-b-m/gl-plt-all-2015-03-25.xsd")
-    # print ("validation result: ", is_xml_valid)
-    # errors = Validator.get_xml_validation_errors(xml_file, "http://www.xbrl.org/taxonomy/int/gl/2015-03-25/plt/case-c-b-m/gl-plt-all-2015-03-25.xsd")
-    # print (errors)
+    xml_file = FileOperations.open_file(
+        "XML_files/reports_with_errors/EE0301010_entyDetails_in_wrong_order.xml")
+    is_xml_valid = Validator.validate_xml(
+        xml_file, "http://www.xbrl.org/taxonomy/int/gl/2015-03-25/plt/case-c-b-m/gl-plt-all-2015-03-25.xsd")
+    print("validation result: ", is_xml_valid)
+    errors = Validator.get_xml_validation_errors(
+        xml_file, "http://www.xbrl.org/taxonomy/int/gl/2015-03-25/plt/case-c-b-m/gl-plt-all-2015-03-25.xsd")
+    print(errors)
 
     """Convert XML to JSON object and simple validation"""
     # data_from_xml_file = Converter.convert_xml_to_dict('XML_files/sample_reports/EE0301020_sample_report_stardard_small.xml')
@@ -37,12 +40,13 @@ def main():
     # print(is_equal)
 
     """Generate bussiness rules json main->sub."""
-    xls_file = "JSON_files/import/Subaccount_limitations.xlsx"
-    raw_data = FileOperations.load_data_from_excel_return_dict(xls_file, "Sheet1", 0)
-    result = Converter.convert_xls_to_subaccount_limitations_json(raw_data)
-    FileOperations.save_dict_to_json_file(result, "subaccount_limitations")
+    # xls_file = "JSON_files/import/Subaccount_limitations.xlsx"
+    # raw_data = FileOperations.load_data_from_excel_return_dict(xls_file, "Sheet1", 0)
+    # result = Converter.convert_xls_to_subaccount_limitations_json(raw_data)
+    # FileOperations.save_dict_to_json_file(result, "subaccount_limitations")
 
-    # Converter.make_element_code_and_name_pairs('VG_112, VG_113, VG_114, VG_115, VG_116, VG_199', "VARAGRUPP2024ap")
+    # # Converter.make_element_code_and_name_pairs('VG_112, VG_113, VG_114, VG_115, VG_116, VG_199', "VARAGRUPP2024ap")
+
 
 if __name__ == "__main__":
     main()
