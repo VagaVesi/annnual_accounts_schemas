@@ -18,20 +18,20 @@ def main():
     # FileOperations.save_dict_to_json_file(result, classification_code)
 
     """Validate JSON sample."""
-    # json_document = "JSON_files/sample_reports/EE0301020_sample_report_standard_small.json"
-    # json_schema = "JSON_files/schemas/EE0301020_schema.json"
-    # validation_result = Validator.validate_json(json_document, json_schema)
-    # print(validation_result)
+    json_document = "JSON_files/sample_reports/standard_error_bussiness_debit_doesnt_equal_credit.json"
+    json_schema = "JSON_files/schemas/AA_STANDARD_schema.json"
+    validation_result = Validator.validate_json(json_document, json_schema)
+    print(validation_result)
 
     """Validate XML sample."""
-    xml_file = FileOperations.open_file(
-        "XML_files/reports_with_errors/EE0301010_entyDetails_in_wrong_order.xml")
-    is_xml_valid = Validator.validate_xml(
-        xml_file, "http://www.xbrl.org/taxonomy/int/gl/2015-03-25/plt/case-c-b-m/gl-plt-all-2015-03-25.xsd")
-    print("validation result: ", is_xml_valid)
-    errors = Validator.get_xml_validation_errors(
-        xml_file, "http://www.xbrl.org/taxonomy/int/gl/2015-03-25/plt/case-c-b-m/gl-plt-all-2015-03-25.xsd")
-    print(errors)
+    # xml_file = FileOperations.open_file(
+    #     "app/files_with_errors/business_debitCreditCode_amount_3decimal_EE0302010.xml")
+    # is_xml_valid = Validator.validate_xml(
+    #     xml_file, "http://www.xbrl.org/taxonomy/int/gl/2015-03-25/plt/case-c-b-m/gl-plt-all-2015-03-25.xsd")
+    # print("validation result: ", is_xml_valid)
+    # errors = Validator.get_xml_validation_errors(
+    #     xml_file, "http://www.xbrl.org/taxonomy/int/gl/2015-03-25/plt/case-c-b-m/gl-plt-all-2015-03-25.xsd")
+    # print(errors)
 
     """Convert XML to JSON object and simple validation"""
     # data_from_xml_file = Converter.convert_xml_to_dict('XML_files/sample_reports/EE0301020_sample_report_stardard_small.xml')
